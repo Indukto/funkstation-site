@@ -11,8 +11,8 @@
   --reveal-rise: 14px;
 
   --trace-gap: clamp(18px, 1.8vw, 30px);
-  --chapter-pad: clamp(64px, 9vh, 108px);
-  --story-gap: clamp(72px, 11vh, 130px);
+  --chapter-pad: clamp(48px, 7vh, 84px);
+  --story-gap: clamp(48px, 8vh, 88px);
   --page-pad: 36px;
 
   /* Antennenskizze: Sie sitzt im Hero an der Stelle der alten Standortplatte.
@@ -24,8 +24,9 @@
   --trace-x: calc(12px + 335.81px * var(--antenna-scale));
 
   /* Breite der Textspalte. Der Überschuss bleibt als breiter Rand links stehen,
-     damit der Text direkt an der Leitung sitzt statt weit davon entfernt. */
-  --measure: 900px;
+     damit der Text direkt an der Leitung sitzt statt weit davon entfernt.
+     760px hält die Zeilenlänge bei ~62 Zeichen (DESIGN §3). */
+  --measure: 760px;
 
   /* Hebt die Antennenskizze neben der Überschrift an; die Leitung rückt im
      selben Maß nach oben, damit der Mast ohne Absatz in sie übergeht. */
@@ -383,7 +384,34 @@ ol {
 }
 
 .hero-main {
+  position: relative;
   min-width: 0;
+  z-index: 1;
+}
+
+/* Ghost-Index nach DESIGN §4: riesige outline-Ziffer als Ornament,
+   füllt das Blau rechts vom Hero und verankert die 09-Stationen. */
+.hero-ghost {
+  position: absolute;
+  top: -0.32em;
+  right: -0.08em;
+  z-index: 0;
+  font-family: var(--font-display);
+  font-size: clamp(120px, 18vw, 260px);
+  font-weight: 700;
+  line-height: 0.72;
+  letter-spacing: -0.1em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(242, 240, 231, 0.16);
+  pointer-events: none;
+  user-select: none;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 760px) {
+  .hero-ghost {
+    display: none;
+  }
 }
 
 /* Die Antenne übernimmt den Platz der früheren Standortplatte. Sie ist breiter als
@@ -401,10 +429,12 @@ ol {
 }
 
 .hero h1 {
+  position: relative;
+  z-index: 1;
   margin-top: 16px;
   padding-top: 0.04em;
   font-family: var(--font-display);
-  font-size: clamp(48px, 7.4vw, 112px);
+  font-size: clamp(52px, 7.8vw, 120px);
   font-weight: 900;
   font-stretch: 112%;
   line-height: 0.96;
@@ -714,7 +744,7 @@ ol {
 }
 
 .chapter-text {
-  max-width: 64ch;
+  max-width: 62ch;
   margin-top: 16px;
   font-family: var(--font-display);
   font-size: clamp(16px, 1.1vw, 17px);
@@ -753,10 +783,10 @@ ol {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  padding: 16px 0;
+  padding: 14px 0;
   border-top: 1px solid var(--line-paper-soft);
   font-family: var(--font-display);
-  font-size: clamp(24px, 2.4vw, 34px);
+  font-size: clamp(19px, 1.8vw, 24px);
   font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.025em;
@@ -797,7 +827,7 @@ ol {
 
 .team-number {
   font-family: var(--font-display);
-  font-size: clamp(96px, 11vw, 150px);
+  font-size: clamp(72px, 8vw, 110px);
   font-weight: 900;
   font-stretch: 112%;
   line-height: 0.78;
@@ -887,6 +917,7 @@ ol {
   border-color: var(--paper);
   background: var(--paper);
   color: var(--blue);
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .flow__step:not(:last-child)::after {
@@ -936,14 +967,14 @@ ol {
 .display-word {
   margin-top: clamp(24px, 4vh, 42px);
   font-family: var(--font-display);
-  font-size: clamp(80px, 16vw, 210px);
+  font-size: clamp(64px, 11vw, 140px);
   font-weight: 900;
   font-stretch: 112%;
   line-height: 0.72;
   letter-spacing: -0.065em;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(242, 240, 231, 0.24);
+  -webkit-text-stroke: 1px rgba(242, 240, 231, 0.16);
   user-select: none;
 }
 
@@ -1085,7 +1116,9 @@ ol {
 
 .benefit h3 {
   font-family: var(--font-display);
-  font-size: clamp(22px, 2.1vw, 28px);
+  overflow-wrap: break-word;
+  hyphens: auto;
+  font-size: clamp(20px, 1.8vw, 24px);
   font-weight: 700;
   font-stretch: 108%;
   line-height: 1;
@@ -1167,7 +1200,7 @@ ol {
    -------------------------------------------------------------------------- */
 
 .footer {
-  margin-top: clamp(56px, 10vh, 110px);
+  margin-top: clamp(40px, 7vh, 72px);
   border-top: 1px solid var(--line-paper);
   overflow: hidden;
 }
@@ -1180,7 +1213,7 @@ ol {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
-  padding-bottom: clamp(40px, 7vh, 70px);
+  padding-bottom: clamp(28px, 5vh, 48px);
 }
 
 .footer-label {
@@ -1200,7 +1233,7 @@ ol {
 
 .footer-word {
   font-family: var(--font-display);
-  font-size: clamp(72px, 23vw, 360px);
+  font-size: clamp(64px, 18vw, 220px);
   font-weight: 900;
   font-stretch: 112%;
   line-height: 0.7;
@@ -1208,7 +1241,7 @@ ol {
   text-transform: uppercase;
   white-space: nowrap;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(242, 240, 231, 0.28);
+  -webkit-text-stroke: 1px rgba(242, 240, 231, 0.16);
   margin-bottom: -0.1em;
   user-select: none;
 }
@@ -1323,7 +1356,7 @@ ol {
 
 @media (max-width: 900px) {
   :root {
-    --chapter-pad: clamp(72px, 10vh, 110px);
+    --chapter-pad: clamp(48px, 7vh, 72px);
     --antenna-scale: 0.6;
   }
 
@@ -1383,7 +1416,8 @@ ol {
   }
 
   .brand-sub {
-    display: none;
+    font-size: 10px;
+    letter-spacing: 0.12em;
   }
 
   .masthead-right {
@@ -1577,11 +1611,7 @@ ol {
   }
 
   .mesh-labels text {
-    font-size: 22px;
-  }
-
-  .mesh-labels text:not(:first-child) {
-    display: none;
+    font-size: 13px;
   }
 
   .mesh-lines {
@@ -1734,7 +1764,7 @@ ol {
 /* Unter 360 px bekommt die Karte größere SVG-Labels. */
 @media (max-width: 350px) {
   .mesh-labels text {
-    font-size: 26px;
+    font-size: 15px;
   }
 }
 
@@ -1768,9 +1798,14 @@ ol {
   }
 }
 
+#story {
+  scroll-margin-top: 24px;
+}
+
 @media print {
   .grain,
   .masthead .btn,
+  .hero-ghost,
   .hero-antenna,
   .hero::after,
   .trace,
