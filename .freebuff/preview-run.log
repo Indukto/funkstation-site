@@ -1810,3 +1810,69 @@
 127.0.0.1 - - [09/Nov/2026 17:12:48] "GET /assets/landing/signal.js?v=5 HTTP/1.1" 200 -
 127.0.0.1 - - [09/Nov/2026 17:12:58] "GET /kalender.html HTTP/1.1" 200 -
 127.0.0.1 - - [09/Nov/2026 17:12:58] "GET /signal.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:13:09] code 404, message File not found
+127.0.0.1 - - [09/Nov/2026 17:13:09] "GET /health HTTP/1.1" 404 -
+127.0.0.1 - - [09/Nov/2026 17:13:41] "GET /landing.html?v=33 HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:41] "GET /assets/landing/landing.css?v=33 HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:41] "GET /assets/landing/landing.js?v=11 HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:41] code 404, message File not found
+127.0.0.1 - - [09/Nov/2026 17:13:41] "GET /health HTTP/1.1" 404 -
+127.0.0.1 - - [09/Nov/2026 17:13:42] "GET /landing.html?v=33 HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:52] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:13:56] "GET /kalender.html HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:56] "GET /api/events HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61011)
+127.0.0.1 - - [09/Nov/2026 17:13:56] "GET /assets/kalender/kalender.css?v=5 HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:56] "GET /api/events HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "F:\ago\server.py", line 152, in __init__
+    super().__init__(*args, directory=str(ROOT), **kwargs)
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 658, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 432, in handle
+    self.handle_one_request()
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 420, in handle_one_request
+    method()
+  File "F:\ago\server.py", line 166, in do_GET
+    self.list_events()
+  File "F:\ago\server.py", line 265, in list_events
+    self.send_json(
+  File "F:\ago\server.py", line 260, in send_json
+    self.wfile.write(body)
+  File "C:\Users\gamer\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 826, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen
+----------------------------------------
+127.0.0.1 - - [09/Nov/2026 17:13:57] "GET /kalender.html HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2026 17:13:57] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:11] code 404, message File not found
+127.0.0.1 - - [09/Nov/2026 17:14:11] "GET /health HTTP/1.1" 404 -
+127.0.0.1 - - [09/Nov/2026 17:14:12] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:27] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:35] "GET /kalender.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:35] "GET /assets/kalender/kalender.css?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:35] "GET /assets/kalender/kalender.js?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:35] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:41] code 404, message File not found
+127.0.0.1 - - [09/Nov/2026 17:14:41] "GET /health HTTP/1.1" 404 -
+127.0.0.1 - - [09/Nov/2026 17:14:42] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:50] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:14:57] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:15:05] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:15:11] code 404, message File not found
+127.0.0.1 - - [09/Nov/2026 17:15:11] "GET /health HTTP/1.1" 404 -
+127.0.0.1 - - [09/Nov/2026 17:15:12] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:15:21] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:15:27] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:15:33] "GET /api/events HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2026 17:15:41] code 404, message File not found
+127.0.0.1 - - [09/Nov/2026 17:15:41] "GET /health HTTP/1.1" 404 -
+127.0.0.1 - - [09/Nov/2026 17:15:42] "GET /api/events HTTP/1.1" 200 -

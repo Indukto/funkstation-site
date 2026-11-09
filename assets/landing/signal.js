@@ -21,7 +21,7 @@
     smears: 0.26,
     dots: 0.45,
     palette: ["#0000ff", "#ffffff"],
-    motion: { enabled: true, mode: "drift", amount: 0.6, fps: 12, frames: 36 },
+    motion: { enabled: !window.matchMedia("(prefers-reduced-motion: reduce)").matches, mode: "drift", amount: 0.6, fps: 12, frames: 36 },
   };
   const interval = 1000 / settings.motion.fps;
   const marks = settings.palette.length > 1 ? settings.palette.slice(1) : [settings.palette[0]];
@@ -276,7 +276,7 @@
     draw();
   };
 
-  const shouldAnimate = () => playing && inView && !document.hidden;
+  const shouldAnimate = () => settings.motion.enabled && playing && inView && !document.hidden;
   const animate = (time) => {
     if (!shouldAnimate()) {
       animationRequest = 0;
@@ -317,6 +317,26 @@
 
   resize();
   syncAnimation();
+})();
+
+/*
+ * 404 page: any printable key or Enter returns to the landing page. Tab,
+ * modifier shortcuts and function keys stay with the browser.
+ */
+(() => {
+  const link = document.querySelector("[data-return]");
+  if (!link) return;
+
+  const goHome = () => window.location.assign(link.href);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.defaultPrevented || event.repeat) return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+    if (event.key !== "Enter" && event.key.length !== 1) return;
+    if (event.target instanceof Element && event.target.closest("a, button, input, textarea, select")) return;
+    event.preventDefault();
+    goHome();
+  });
 })();
 
 
