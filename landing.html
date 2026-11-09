@@ -27,14 +27,14 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="assets/fonts/fonts.css?v=1" />
     <link rel="stylesheet" href="assets/shared/tokens.css?v=1" />
-    <link rel="stylesheet" href="assets/landing/landing.css?v=31" />
+    <link rel="stylesheet" href="assets/landing/landing.css?v=33" />
     <script>
       document.documentElement.classList.add("js");
       window.setTimeout(function () {
         if (!window.__landingReady) document.documentElement.classList.remove("js");
       }, 2500);
     </script>
-    <script src="assets/landing/landing.js?v=10" defer></script>
+    <script src="assets/landing/landing.js?v=11" defer></script>
     <script src="assets/landing/wheel-scroll.js?v=2" defer></script>
     <script src="assets/landing/cursor-lens.js?v=6" defer></script>
   </head>
@@ -78,15 +78,9 @@
           <div class="hero-actions" data-reveal style="--d: 210ms">
             <a class="btn btn--solid" href="#story">Die Geschichte lesen</a>
             <a class="btn btn--ghost" href="kalender.html">Projektkalender</a>
+            <a class="btn btn--ghost" href="signal.html">Signal-Animation</a>
           </div>
-          <a class="hero-live" href="kalender.html" data-live-status hidden>
-            <span class="hero-live__dot" aria-hidden="true"></span>
-            <span class="hero-live__label">Nächster Termin</span>
-            <span class="hero-live__value" data-live-next>—</span>
-            <span class="hero-live__sep" aria-hidden="true">/</span>
-            <span class="hero-live__label">Meilensteine</span>
-            <span class="hero-live__value" data-live-done>—</span>
-          </a>
+
           <p class="hero-meta" data-reveal style="--d: 280ms">
             <span>05 Teilprojekte</span><span class="slash" aria-hidden="true">/</span>
             <span>16 Schülerinnen und Schüler</span><span class="slash" aria-hidden="true">/</span>
@@ -149,17 +143,7 @@
             <p class="story-note" data-reveal style="--d: 160ms">
               Neun Stationen entlang einer Leitung. Jede erklärt ein Stück des Projekts.
             </p>
-            <nav class="chapter-index" aria-label="Kapitelübersicht" data-reveal style="--d: 240ms">
-              <a href="#idee"><span>01</span>Die Idee</a>
-              <a href="#team"><span>02</span>Das Team</a>
-              <a href="#sensoren"><span>03</span>Sensoren</a>
-              <a href="#gateway"><span>04</span>Gateway</a>
-              <a href="#websdr"><span>05</span>WebSDR</a>
-              <a href="#meshcore"><span>06</span>MeshCore</a>
-              <a href="#weltraum"><span>07</span>Weltraum</a>
-              <a href="#nutzen"><span>08</span>Nutzen</a>
-              <a href="#ausblick"><span>09</span>Ausblick</a>
-            </nav>
+
           </header>
 
           <section class="chapter" id="idee" data-chapter="01" data-label="Die Idee" aria-labelledby="idee-title">
@@ -219,25 +203,6 @@
             </div>
           </section>
 
-          <figure class="photo-band photo-band--paper" data-reveal>
-            <picture>
-              <source srcset="assets/landing/halftone-team.webp" type="image/webp" />
-              <img
-                src="assets/landing/halftone-team.png"
-                alt="Halftone-Aufnahme des P-Seminars Physik vor dem Bodensee-Gymnasium"
-                width="1549"
-                height="1000"
-                loading="lazy"
-                decoding="async"
-              />
-            </picture>
-            <figcaption class="photo-band__caption">
-              <span class="photo-band__label">Abb. 01 / Team</span>
-              <span class="photo-band__text">P-Seminar Physik, 11. Jahrgangsstufe / Bodensee-Gymnasium Lindau</span>
-              <span class="photo-band__credit">Projektarchiv / Halftone</span>
-            </figcaption>
-          </figure>
-
           <section class="chapter" id="sensoren" data-chapter="03" data-label="Sensoren" aria-labelledby="sensoren-title">
             <span class="chapter-node" aria-hidden="true"></span>
             <div class="chapter-head">
@@ -280,36 +245,6 @@
                   <span class="spec-val">Geräuschpegel</span>
                 </div>
               </div>
-
-              <figure class="depth-plate" data-reveal style="--d: 280ms" aria-labelledby="depth-title">
-                <figcaption class="depth-plate__head">
-                  <span class="depth-plate__title" id="depth-title">See / Querschnitt</span>
-                  <span class="depth-plate__note">Schematisch, nicht maßstäblich</span>
-                </figcaption>
-                <div class="depth-plate__stage">
-                  <div class="depth-plate__water" aria-hidden="true"></div>
-                  <div class="depth-plate__grid" aria-hidden="true"></div>
-                  <div class="depth-plate__axis" aria-hidden="true">
-                    <span style="--y: 0%">0 m</span>
-                    <span style="--y: 25%">10 m</span>
-                    <span style="--y: 50%">20 m</span>
-                    <span style="--y: 75%">30 m</span>
-                    <span style="--y: 100%">40 m</span>
-                  </div>
-                  <div class="depth-plate__buoy" aria-hidden="true">
-                    <span class="depth-plate__float"></span>
-                    <span class="depth-plate__sensor" style="--y: 4%"><i></i><b>0,5 m</b></span>
-                    <span class="depth-plate__sensor" style="--y: 30%"><i></i><b>10 m</b></span>
-                    <span class="depth-plate__sensor" style="--y: 62%"><i></i><b>24 m</b></span>
-                  </div>
-                  <div class="depth-plate__shore" aria-hidden="true">
-                    <span class="depth-plate__hub"></span>
-                    <span class="depth-plate__shore-label">Schulgelände</span>
-                  </div>
-                  <span class="depth-plate__link" aria-hidden="true">LoRaWAN</span>
-                  <span class="depth-plate__legend">Messpunkte in Planung</span>
-                </div>
-              </figure>
 
               <p class="chapter-meta" data-reveal style="--d: 280ms">
                 <span>Funk / LoRaWAN</span><span class="slash" aria-hidden="true">/</span>
@@ -383,58 +318,7 @@
                 <span>Empfang / Kurzwelle und mehr</span><span class="slash" aria-hidden="true">/</span>
                 <span>Quelle / weltweit</span>
               </p>
-              <div class="tuner" data-tuner data-reveal style="--d: 280ms">
-                <div class="tuner__head">
-                  <span class="tuner__label">Empfangslage / Demo</span>
-                  <span class="tuner__live"><i aria-hidden="true"></i>Bereit</span>
-                </div>
-
-                <div class="tuner__bands" role="group" aria-label="Frequenzband wählen">
-                  <button type="button" class="tuner__band is-active" data-band="0" aria-pressed="true">
-                    <span class="tuner__mhz">3,5</span>
-                    <span class="tuner__unit">MHz</span>
-                    <span class="tuner__band-name">80 m</span>
-                  </button>
-                  <button type="button" class="tuner__band" data-band="1" aria-pressed="false">
-                    <span class="tuner__mhz">7</span>
-                    <span class="tuner__unit">MHz</span>
-                    <span class="tuner__band-name">40 m</span>
-                  </button>
-                  <button type="button" class="tuner__band" data-band="2" aria-pressed="false">
-                    <span class="tuner__mhz">14</span>
-                    <span class="tuner__unit">MHz</span>
-                    <span class="tuner__band-name">20 m</span>
-                  </button>
-                  <button type="button" class="tuner__band" data-band="3" aria-pressed="false">
-                    <span class="tuner__mhz">145</span>
-                    <span class="tuner__unit">MHz</span>
-                    <span class="tuner__band-name">2 m</span>
-                  </button>
-                  <button type="button" class="tuner__band" data-band="4" aria-pressed="false">
-                    <span class="tuner__mhz">437</span>
-                    <span class="tuner__unit">MHz</span>
-                    <span class="tuner__band-name">70 cm</span>
-                  </button>
-                </div>
-
-                <div class="tuner__dial" aria-hidden="true">
-                  <span class="tuner__scale"></span>
-                  <span class="tuner__needle" data-tuner-needle></span>
-                </div>
-
-                <div class="tuner__body" aria-live="polite">
-                  <div class="tuner__readout">
-                    <p class="tuner__freq"><b data-tuner-freq>3,500</b><span>MHz</span></p>
-                    <p class="tuner__mode" data-tuner-mode>CW / Digital</p>
-                  </div>
-                  <p class="tuner__desc" data-tuner-desc>
-                    Abends und nachts: regionale Stationen, Morsezeichen und digitale Betriebsarten.
-                  </p>
-                </div>
-
-                <div class="tuner__waterfall" aria-hidden="true" data-tuner-waterfall></div>
-                <p class="tuner__hint">Demo, keine Live-Messung. Die Werte zeigen, was auf dem Band typischerweise zu hören ist.</p>
-              </div>
+              <p class="display-word" aria-hidden="true" data-reveal style="--d: 280ms">Hören</p>
             </div>
           </section>
 
@@ -603,49 +487,6 @@
                 unterstützen wollen, sprechen Sie uns an.
               </p>
 
-              <div class="log" data-reveal style="--d: 210ms">
-                <p class="log__head"><span>Projektplan</span><span>2026 / 27</span></p>
-                <ol class="log__list" aria-label="Projektplan 2026 bis 2027">
-                  <li class="log__item is-start">
-                    <span class="log__date">09 / 2026</span>
-                    <span class="log__state">Start</span>
-                    <p class="log__title">Auftakt und Themenwahl</p>
-                    <p class="log__note">Team, Rollen, erste Skizzen.</p>
-                  </li>
-                  <li class="log__item is-now">
-                    <span class="log__date">10 / 2026</span>
-                    <span class="log__state">Laufend</span>
-                    <p class="log__title">Sensorkonzept</p>
-                    <p class="log__note">Bauteile, Messgrößen, Testaufbau.</p>
-                  </li>
-                  <li class="log__item">
-                    <span class="log__date">11 / 2026</span>
-                    <span class="log__state">Geplant</span>
-                    <p class="log__title">Gateway</p>
-                    <p class="log__note">Aufbau und erster Datenweg.</p>
-                  </li>
-                  <li class="log__item">
-                    <span class="log__date">01 / 2027</span>
-                    <span class="log__state">Geplant</span>
-                    <p class="log__title">Erste Messreihe</p>
-                    <p class="log__note">Sensoren am See, erste Werte.</p>
-                  </li>
-                  <li class="log__item">
-                    <span class="log__date">03 / 2027</span>
-                    <span class="log__state">Geplant</span>
-                    <p class="log__title">WebSDR</p>
-                    <p class="log__note">Empfang und Browser-Zugang.</p>
-                  </li>
-                  <li class="log__item">
-                    <span class="log__date">07 / 2027</span>
-                    <span class="log__state">Geplant</span>
-                    <p class="log__title">Übergabe</p>
-                    <p class="log__note">Station bleibt, Dokumentation steht.</p>
-                  </li>
-                </ol>
-                <p class="log__caption">Auszug / Planungsstand Oktober 2026</p>
-              </div>
-
               <p class="vision-line" data-reveal style="--d: 260ms">
                 Nicht alles auf einmal.<br />Aber alles mit einem Ziel.
               </p>
@@ -668,24 +509,6 @@
             </div>
           </section>
 
-          <figure class="photo-band photo-band--closing" data-reveal>
-            <picture>
-              <source srcset="assets/landing/halftone-lindau.webp" type="image/webp" />
-              <img
-                src="assets/landing/halftone-lindau.png"
-                alt="Halftone-Aufnahme des Bodensees und des Lindauer Ufers"
-                width="1506"
-                height="1000"
-                loading="lazy"
-                decoding="async"
-              />
-            </picture>
-            <figcaption class="photo-band__caption">
-              <span class="photo-band__label">Abb. 02 / See</span>
-              <span class="photo-band__text">Bodensee / Lindau</span>
-              <span class="photo-band__credit">Projektarchiv / Halftone</span>
-            </figcaption>
-          </figure>
         </div>
       </div>
     </main>
