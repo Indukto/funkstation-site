@@ -52,7 +52,7 @@ body {
   background: var(--blue);
   color: var(--paper);
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -110,7 +110,7 @@ ol {
   padding: 10px 14px;
   background: var(--paper);
   color: var(--ink);
-  font-size: 10px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   text-decoration: none;
@@ -136,10 +136,14 @@ ol {
 
 /* --------------------------------------------------------------------------
    Typographic atoms
+
+   Mikrotext bleibt bewusst bei 11 px: Kicker, Metadaten und Nummern sind
+   Teil der Instrumentensprache. Erklärende Sätze stehen nie darunter;
+   dafür sorgen .chapter-text, .chapter-lead und .benefit p.
    -------------------------------------------------------------------------- */
 
 .kicker {
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 0.16em;
@@ -157,7 +161,7 @@ ol {
   align-items: center;
   gap: 9px;
   margin-top: 30px;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 0.12em;
@@ -187,7 +191,7 @@ ol {
   background: transparent;
   color: var(--paper);
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.11em;
   line-height: 1;
@@ -270,7 +274,7 @@ ol {
 }
 
 .brand-sub {
-  font-size: 7.5px;
+  font-size: 11px;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.16em;
@@ -341,7 +345,7 @@ ol {
   .trace-meter__count i {
     margin-left: 3px;
     font-family: var(--font-mono);
-    font-size: 8px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.06em;
@@ -352,7 +356,7 @@ ol {
     grid-column: 2;
     grid-row: 2;
     max-width: 12ch;
-    font-size: 8px;
+    font-size: 11px;
     line-height: 1.35;
     letter-spacing: 0.13em;
     text-align: left;
@@ -416,8 +420,9 @@ ol {
 .hero-lead {
   max-width: 54ch;
   margin-top: clamp(24px, 3vh, 38px);
-  font-size: clamp(13px, 1.1vw, 15px);
-  line-height: 1.8;
+  font-family: var(--font-display);
+  font-size: clamp(16px, 1.25vw, 18px);
+  line-height: 1.65;
   color: rgba(242, 240, 231, 0.86);
 }
 
@@ -433,7 +438,7 @@ ol {
   flex-wrap: wrap;
   align-items: center;
   margin-top: 34px;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.14em;
   line-height: 1.6;
@@ -451,7 +456,7 @@ ol {
   gap: 24px;
   padding-top: 12px;
   border-top: 1px solid var(--line-paper);
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -590,7 +595,7 @@ ol {
 
 .story-note {
   margin-top: 26px;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(242, 240, 231, 0.82);
@@ -660,7 +665,7 @@ ol {
   top: 1px;
   left: 100%;
   margin-left: calc(var(--trace-gap) + 10px);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 0.06em;
@@ -670,7 +675,7 @@ ol {
 }
 
 .chapter-kicker {
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 1.35;
   letter-spacing: 0.16em;
@@ -694,6 +699,7 @@ ol {
   font-stretch: 108%;
   line-height: 0.98;
   letter-spacing: -0.04em;
+  hyphens: none;
   text-transform: uppercase;
   color: var(--paper);
 }
@@ -701,16 +707,18 @@ ol {
 .chapter-lead {
   max-width: 58ch;
   margin-top: clamp(22px, 3vh, 30px);
-  font-size: clamp(16px, 1.2vw, 17px);
-  line-height: 1.65;
+  font-family: var(--font-display);
+  font-size: clamp(19px, 1.4vw, 22px);
+  line-height: 1.5;
   color: var(--paper);
 }
 
 .chapter-text {
   max-width: 64ch;
   margin-top: 16px;
-  font-size: 15px;
-  line-height: 1.85;
+  font-family: var(--font-display);
+  font-size: clamp(16px, 1.1vw, 17px);
+  line-height: 1.7;
   color: rgba(242, 240, 231, 0.86);
 }
 
@@ -723,7 +731,7 @@ ol {
   margin-top: 32px;
   padding-top: 10px;
   border-top: 1px solid var(--line-paper-soft);
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.13em;
   line-height: 1.6;
@@ -800,7 +808,7 @@ ol {
 
 .team-caption {
   margin-top: 26px;
-  font-size: 8px;
+  font-size: 11px;
   line-height: 1.5;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -837,7 +845,7 @@ ol {
 }
 
 .spec-key {
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -845,7 +853,7 @@ ol {
 }
 
 .spec-val {
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.5;
   color: rgba(242, 240, 231, 0.86);
 }
@@ -914,7 +922,7 @@ ol {
 
 .flow__meta {
   margin-top: 16px;
-  font-size: 7.5px;
+  font-size: 11px;
   line-height: 1.4;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -922,22 +930,8 @@ ol {
 }
 
 /* --------------------------------------------------------------------------
-   05 - WebSDR display word
+   05 - WebSDR tuner (styles in the editorial additions block)
    -------------------------------------------------------------------------- */
-
-.display-word {
-  margin-top: clamp(24px, 4vh, 42px);
-  font-family: var(--font-display);
-  font-size: clamp(80px, 16vw, 210px);
-  font-weight: 900;
-  font-stretch: 112%;
-  line-height: 0.72;
-  letter-spacing: -0.065em;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(242, 240, 231, 0.24);
-  user-select: none;
-}
 
 /* --------------------------------------------------------------------------
    06 - mesh
@@ -984,6 +978,10 @@ ol {
   letter-spacing: 0.1em;
   text-anchor: middle;
   text-transform: uppercase;
+  paint-order: stroke fill;
+  stroke: var(--blue);
+  stroke-width: 3px;
+  stroke-linejoin: round;
 }
 
 .mesh-labels text:first-child {
@@ -1000,7 +998,7 @@ ol {
   margin-top: 16px;
   padding-top: 10px;
   border-top: 1px solid var(--line-paper-soft);
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: rgba(242, 240, 231, 0.82);
@@ -1039,14 +1037,14 @@ ol {
 }
 
 .target-place {
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: rgba(242, 240, 231, 0.86);
 }
 
 .target-coord {
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.08em;
   text-align: right;
   text-transform: uppercase;
@@ -1085,8 +1083,9 @@ ol {
 .benefit p {
   max-width: 32ch;
   margin-top: 10px;
-  font-size: 10px;
-  line-height: 1.6;
+  font-family: var(--font-display);
+  font-size: 14px;
+  line-height: 1.55;
   color: rgba(242, 240, 231, 0.86);
 }
 
@@ -1115,7 +1114,7 @@ ol {
   margin-top: 32px;
   padding-top: 11px;
   border-top: 1px solid var(--line-paper);
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(242, 240, 231, 0.86);
@@ -1130,7 +1129,7 @@ ol {
 
 .contact {
   margin-top: 24px;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
   color: rgba(242, 240, 231, 0.82);
@@ -1171,7 +1170,7 @@ ol {
 }
 
 .footer-label {
-  font-size: 7.5px;
+  font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: rgba(242, 240, 231, 0.82);
@@ -1180,7 +1179,7 @@ ol {
 .footer-value {
   max-width: 24ch;
   margin-top: 8px;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.55;
   color: rgba(242, 240, 231, 0.86);
 }
@@ -1208,7 +1207,7 @@ ol {
   gap: 12px 28px;
   padding: 13px 0 20px;
   border-top: 1px solid var(--line-paper);
-  font-size: 7.5px;
+  font-size: 11px;
   line-height: 1.5;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1257,6 +1256,667 @@ ol {
 .footer-links a:focus-visible {
   color: var(--signal);
   border-color: var(--signal);
+}
+
+/* --------------------------------------------------------------------------
+   Editorial additions: live status, chapter index, image plates
+   -------------------------------------------------------------------------- */
+
+.hero-live {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  margin-top: 22px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-paper-soft);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(242, 240, 231, 0.82);
+  transition: color var(--dur-quick) var(--ease);
+}
+
+.hero-live:hover,
+.hero-live:focus-visible {
+  color: var(--paper);
+}
+
+.hero-live[hidden] {
+  display: none;
+}
+
+.hero-live__dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  background: var(--signal);
+}
+
+.hero-live__value {
+  color: var(--paper);
+}
+
+.hero-live__sep {
+  color: rgba(242, 240, 231, 0.4);
+}
+
+.chapter-index {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 24px;
+  margin-top: 30px;
+  border-top: 1px solid var(--line-paper-soft);
+}
+
+.chapter-index a {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line-paper-soft);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(242, 240, 231, 0.82);
+  transition: color var(--dur-quick) var(--ease);
+}
+
+.chapter-index a span {
+  color: var(--signal);
+  font-variant-numeric: tabular-nums;
+}
+
+.chapter-index a:hover,
+.chapter-index a:focus-visible {
+  color: var(--paper);
+}
+
+/* Image plates sit in the measure, from the sheet edge to the trace line. */
+.photo-band {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding-right: calc(var(--trace-x) + var(--trace-gap));
+}
+
+.photo-band picture,
+.photo-band img {
+  display: block;
+  width: 100%;
+}
+
+.photo-band img {
+  height: auto;
+  background: var(--paper);
+}
+
+.photo-band__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 18px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line-paper-soft);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(242, 240, 231, 0.82);
+}
+
+.photo-band__label {
+  color: var(--signal);
+}
+
+.photo-band__text {
+  flex: 1 1 300px;
+  color: var(--paper);
+}
+
+.photo-band__credit {
+  color: rgba(242, 240, 231, 0.62);
+}
+
+.photo-band--closing {
+  margin-bottom: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Sensor cross-section
+   -------------------------------------------------------------------------- */
+
+.depth-plate {
+  max-width: 900px;
+  margin-top: clamp(38px, 6vh, 58px);
+  border-top: 1px solid var(--line-paper);
+  padding-top: 12px;
+}
+
+.depth-plate__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 18px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.depth-plate__title {
+  color: var(--signal);
+}
+
+.depth-plate__note {
+  color: rgba(242, 240, 231, 0.62);
+}
+
+.depth-plate__stage {
+  position: relative;
+  height: clamp(300px, 32vw, 380px);
+  margin-top: 20px;
+  padding-top: 44px;
+}
+
+.depth-plate__water {
+  position: absolute;
+  top: 44px;
+  right: 0;
+  bottom: 0;
+  left: 54px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.3));
+  border-left: 1px solid var(--line-paper-soft);
+  border-top: 1px solid var(--paper);
+}
+
+.depth-plate__grid {
+  position: absolute;
+  top: 44px;
+  right: 0;
+  bottom: 0;
+  left: 54px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 calc(25% - 1px),
+    var(--line-paper-soft) calc(25% - 1px) 25%
+  );
+  pointer-events: none;
+}
+
+.depth-plate__axis {
+  position: absolute;
+  top: 44px;
+  bottom: 0;
+  left: 0;
+  width: 44px;
+}
+
+.depth-plate__axis span {
+  position: absolute;
+  top: var(--y);
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: rgba(242, 240, 231, 0.72);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.depth-plate__buoy {
+  position: absolute;
+  top: 44px;
+  bottom: 0;
+  left: 23%;
+  width: 1px;
+  border-left: 1px dashed rgba(242, 240, 231, 0.7);
+}
+
+.depth-plate__float {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid var(--paper);
+  background: var(--signal);
+}
+
+.depth-plate__sensor {
+  position: absolute;
+  top: var(--y);
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  background: var(--signal);
+}
+
+.depth-plate__sensor i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 34px;
+  height: 1px;
+  background: rgba(242, 240, 231, 0.5);
+}
+
+.depth-plate__sensor b {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--paper);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.depth-plate__shore {
+  position: absolute;
+  top: 44px;
+  right: 9%;
+  bottom: 0;
+  width: 1px;
+  border-left: 1px solid var(--paper);
+}
+
+.depth-plate__hub {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 13px;
+  height: 13px;
+  background: var(--signal);
+}
+
+.depth-plate__shore-label {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--paper);
+  white-space: nowrap;
+}
+
+.depth-plate__link {
+  position: absolute;
+  top: 20px;
+  right: 9%;
+  left: 23%;
+  border-top: 1px dashed var(--signal);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--signal);
+}
+
+.depth-plate__link::before,
+.depth-plate__link::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  width: 5px;
+  height: 5px;
+  background: var(--signal);
+}
+
+.depth-plate__link::before {
+  left: 0;
+}
+
+.depth-plate__link::after {
+  right: 0;
+}
+
+.depth-plate__legend {
+  position: absolute;
+  bottom: 10px;
+  left: 66px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(242, 240, 231, 0.62);
+}
+
+/* --------------------------------------------------------------------------
+   WebSDR tuner
+   -------------------------------------------------------------------------- */
+
+.tuner {
+  max-width: 900px;
+  margin-top: clamp(36px, 5vh, 52px);
+  border-top: 1px solid var(--line-paper);
+  border-bottom: 1px solid var(--line-paper-soft);
+  padding: 14px 0 14px;
+}
+
+.tuner__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 18px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(242, 240, 231, 0.82);
+}
+
+.tuner__live {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--signal);
+}
+
+.tuner__live i {
+  width: 7px;
+  height: 7px;
+  background: var(--signal);
+}
+
+.tuner__bands {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 16px;
+  border: 1px solid var(--line-paper-soft);
+  background: var(--line-paper-soft);
+}
+
+.tuner__band {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-content: start;
+  align-items: baseline;
+  gap: 2px 6px;
+  min-height: 68px;
+  padding: 12px 10px;
+  border: 0;
+  background: var(--blue);
+  color: rgba(242, 240, 231, 0.72);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-quick) var(--ease),
+    color var(--dur-quick) var(--ease);
+}
+
+.tuner__band:hover {
+  background: var(--blue-ink);
+  color: var(--paper);
+}
+
+.tuner__band.is-active {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.tuner__band:focus-visible {
+  outline-offset: -3px;
+}
+
+.tuner__mhz {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.tuner__unit {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+
+.tuner__band-name {
+  grid-column: 1 / -1;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+
+.tuner__dial {
+  position: relative;
+  height: 40px;
+  margin-top: 18px;
+}
+
+.tuner__scale {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  left: 0;
+  height: 14px;
+  border-top: 1px solid var(--line-paper-soft);
+  background-image: linear-gradient(to right, var(--line-paper) 1px, transparent 1px);
+  background-size: 5% 100%;
+  background-repeat: repeat-x;
+}
+
+.tuner__needle {
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: 2px;
+  height: 38px;
+  background: var(--signal);
+  transition: left 420ms var(--ease);
+}
+
+.tuner__needle::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -4px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 6px solid var(--signal);
+}
+
+.tuner__body {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.7fr) minmax(0, 1.3fr);
+  gap: 24px;
+  align-items: end;
+  margin-top: 8px;
+}
+
+.tuner__freq {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.tuner__freq b {
+  font-family: var(--font-display);
+  font-size: clamp(38px, 4.4vw, 56px);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  font-variant-numeric: tabular-nums;
+  color: var(--paper);
+}
+
+.tuner__freq span {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--signal);
+}
+
+.tuner__mode {
+  margin-top: 8px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(242, 240, 231, 0.62);
+}
+
+.tuner__desc {
+  max-width: 46ch;
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(242, 240, 231, 0.9);
+}
+
+.tuner__waterfall {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 54px;
+  margin-top: 18px;
+  padding-top: 6px;
+  border-top: 1px solid var(--line-paper-soft);
+}
+
+.tuner__waterfall span {
+  flex: 1;
+  height: calc(var(--h, 20) * 1%);
+  min-height: 2px;
+  background: var(--paper);
+  opacity: 0.52;
+  transition: height 380ms var(--ease);
+}
+
+.tuner__waterfall span:nth-child(3n) {
+  background: var(--signal);
+  opacity: 0.82;
+}
+
+.tuner__hint {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(242, 240, 231, 0.62);
+}
+
+/* --------------------------------------------------------------------------
+   Project plan
+   -------------------------------------------------------------------------- */
+
+.log {
+  max-width: 900px;
+  margin-top: clamp(38px, 6vh, 56px);
+  border-top: 1px solid var(--line-paper);
+  padding-top: 12px;
+}
+
+.log__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 18px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--signal);
+}
+
+.log__list {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.log__item {
+  display: grid;
+  grid-template-columns: 110px 86px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+  align-items: baseline;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line-paper-soft);
+}
+
+.log__date {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: rgba(242, 240, 231, 0.72);
+  font-variant-numeric: tabular-nums;
+}
+
+.log__state {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(242, 240, 231, 0.62);
+}
+
+.log__item.is-start .log__state,
+.log__item.is-now .log__state {
+  color: var(--signal);
+}
+
+.log__title {
+  grid-column: 3;
+  grid-row: 1;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--paper);
+}
+
+.log__note {
+  grid-column: 3;
+  grid-row: 2;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(242, 240, 231, 0.7);
+}
+
+.log__caption {
+  margin-top: 10px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(242, 240, 231, 0.62);
+}
+
+@media (min-width: 900px) {
+  .photo-band img {
+    height: clamp(400px, 44vw, 620px);
+    object-fit: cover;
+  }
+
+  .photo-band--paper img {
+    object-position: center 32%;
+  }
+
+  .photo-band--closing img {
+    object-position: center 62%;
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -1316,6 +1976,12 @@ ol {
     --antenna-scale: 0.6;
   }
 
+  /* Auf dem Tablet wird die Karte kleiner skaliert als auf dem Desktop.
+     Die Beschriftung wächst deshalb in SVG-Einheiten mit. */
+  .mesh-labels text {
+    font-size: 14px;
+  }
+
   .chapter--team .chapter-body {
     grid-template-columns: minmax(0, 1fr);
     gap: 24px;
@@ -1340,11 +2006,14 @@ ol {
 
 @media (max-width: 760px) {
   :root {
-    --page-pad: 20px;
-    --trace-x: 60px;
-    --trace-gap: 24px;
-    --chapter-pad: 72px;
-    --story-gap: 56px;
+    /* Auf dem Telefon bleibt die Leitung als Signatur am rechten Rand, aber
+       ohne den breiten Desktop-Fang. Vorher blieben nur 266 px Textbreite
+       (33 Zeichen) neben einem 84 px breiten Streifen. */
+    --page-pad: 18px;
+    --trace-x: 12px;
+    --trace-gap: 12px;
+    --chapter-pad: 56px;
+    --story-gap: 44px;
     --antenna-scale: 0.5;
   }
 
@@ -1359,7 +2028,7 @@ ol {
   }
 
   .brand-name {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .brand-sub {
@@ -1373,7 +2042,7 @@ ol {
   .masthead-right .btn {
     min-height: 36px;
     padding: 0 12px;
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .hero {
@@ -1394,22 +2063,30 @@ ol {
   }
 
   .hero-lead {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .hero-actions .btn {
     min-height: 40px;
     padding: 0 14px;
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .hero-meta {
     margin-top: 26px;
-    font-size: 7.5px;
+    column-gap: 20px;
+    row-gap: 4px;
+    font-size: 11px;
+  }
+
+  /* Auf schmalen Geräten würde der Trenner am Zeilenende allein stehen.
+     Die Abstände übernehmen hier die Gliederung. */
+  .hero-meta .slash {
+    display: none;
   }
 
   .hero-foot {
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .cue {
@@ -1417,7 +2094,7 @@ ol {
   }
 
   .story-intro {
-    padding-bottom: 56px;
+    padding-bottom: 38px;
   }
 
   .story-statement {
@@ -1428,7 +2105,7 @@ ol {
 
   .chapter {
     padding-top: var(--chapter-pad);
-    padding-bottom: 78px;
+    padding-bottom: 62px;
   }
 
   .chapter-node {
@@ -1440,7 +2117,7 @@ ol {
     left: auto;
     width: auto;
     margin-left: 0;
-    font-size: 9px;
+    font-size: 11px;
     text-align: left;
   }
 
@@ -1450,19 +2127,147 @@ ol {
   }
 
   .chapter-kicker {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .chapter h2 {
-    font-size: clamp(30px, 8.2vw, 42px);
+    font-size: clamp(30px, 8.6vw, 42px);
+  }
+
+  /* Die gesetzten Umbrüche sind für die breite Desktop-Spalte gedacht. Auf
+     dem Telefon erzeugen sie Treppen aus zwei Wörtern pro Zeile. */
+  .chapter h2 br {
+    display: none;
   }
 
   .chapter-lead {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .chapter-text {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .chapter-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+    margin-top: 24px;
+  }
+
+  .chapter-index a {
+    min-height: 44px;
+    padding: 12px 0;
+  }
+
+  .photo-band {
+    padding-right: 0;
+  }
+
+  .photo-band__caption {
+    gap: 4px 14px;
+  }
+
+  /* Die Bildplatte läuft bis zur Blattkante; die Bildunterschrift bleibt
+     vor der Leitung, sonst laufen Wörter über die Linie. */
+  .photo-band__text {
+    max-width: calc(100% - (var(--trace-x) - var(--page-pad)) - var(--trace-gap));
+  }
+
+  /* Datenplatten laufen bis an die Linie; der Fließtext behält seinen Abstand. */
+  .depth-plate,
+  .mesh-figure,
+  .tuner,
+  .log {
+    margin-right: calc(-1 * (var(--trace-gap) + var(--page-pad)));
+  }
+
+  .depth-plate__stage {
+    height: 280px;
+    padding-top: 40px;
+  }
+
+  .depth-plate__water,
+  .depth-plate__grid,
+  .depth-plate__buoy,
+  .depth-plate__shore {
+    top: 40px;
+  }
+
+  .depth-plate__water,
+  .depth-plate__grid {
+    left: 46px;
+  }
+
+  .depth-plate__axis {
+    top: 40px;
+    width: 38px;
+  }
+
+  .depth-plate__axis span {
+    right: 8px;
+  }
+
+  .depth-plate__link {
+    top: 16px;
+  }
+
+  .depth-plate__legend {
+    left: 54px;
+  }
+
+  .tuner__head,
+  .log__head,
+  .mesh-figure figcaption {
+    padding-right: 10px;
+  }
+
+  .log__state {
+    padding-right: 10px;
+  }
+
+  .tuner__bands {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tuner__band:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .tuner__body {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .tuner__desc {
+    font-size: 16px;
+  }
+
+  .log__item {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 4px;
+  }
+
+  .log__date {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .log__state {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+  }
+
+  .log__title {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-top: 4px;
+  }
+
+  .log__note {
+    grid-column: 1 / -1;
+    grid-row: 3;
   }
 
   .question-list li {
@@ -1529,20 +2334,24 @@ ol {
     margin-top: 8px;
   }
 
-  .display-word {
-    font-size: clamp(54px, 17vw, 96px);
-  }
-
   .mesh-labels text {
-    font-size: 13px;
+    font-size: 22px;
   }
 
   .mesh-labels text:not(:first-child) {
     display: none;
   }
 
+  .mesh-lines {
+    opacity: 0.46;
+  }
+
+  .mesh-nodes rect {
+    stroke-width: 1.6;
+  }
+
   .mesh-figure figcaption {
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .target {
@@ -1589,7 +2398,7 @@ ol {
   }
 
   .footer-value {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .footer-word {
@@ -1599,7 +2408,7 @@ ol {
   .footer-bottom {
     flex-direction: column;
     gap: 10px;
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .footer-stamp {
@@ -1628,6 +2437,13 @@ ol {
 /* Auf sehr schmalen Geräten passen Zielname, Ort und Koordinate nicht mehr
    nebeneinander: »Polarstern« und »Arktis & Antarktis« stießen zusammen. */
 @media (max-width: 440px) {
+  /* „Klassenzimmer“ ist länger als die schmale Textspalte. Der weiche
+     Trennstrich im Markup greift erst, wenn das Wort sonst die Leitung
+     berühren würde. */
+  .chapter h2 {
+    hyphens: manual;
+  }
+
   .target {
     grid-template-columns: minmax(0, 1fr);
     row-gap: 3px;
@@ -1658,8 +2474,10 @@ ol {
     display: inline;
   }
 
+  /* Bei 320 px passt „Funkstation“ nicht mehr in 38 px. Die Zeile schrumpft
+     mit, damit die vier gesetzten Zeilen erhalten bleiben und nichts klippt. */
   .hero h1 {
-    font-size: 38px;
+    font-size: clamp(31px, 9.6vw, 38px);
   }
 
   .hero-actions {
@@ -1668,6 +2486,18 @@ ol {
 
   .hero-actions .btn {
     flex: 1 1 100%;
+  }
+}
+
+/* Unter 360 px werden die Platten sehr schmal. Die Uferbeschriftung rutscht
+   unter den obersten Messpunkt, die Karte bekommt größere SVG-Labels. */
+@media (max-width: 350px) {
+  .depth-plate__shore-label {
+    top: 34px;
+  }
+
+  .mesh-labels text {
+    font-size: 26px;
   }
 }
 
@@ -1709,6 +2539,10 @@ ol {
   .trace,
   .chapter-node,
   .hero-actions,
+  .hero-live,
+  .chapter-index,
+  .tuner,
+  .photo-band,
   .vision-actions,
   .footer .barcode,
   .cue {

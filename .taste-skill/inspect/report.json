@@ -1,6 +1,6 @@
 {
- "url": "F:\\ago\\landing.html",
- "at": "2026-10-23T21:24:57.454Z",
+ "url": "landing.html",
+ "at": "2026-11-09T15:24:58.349Z",
  "allow": [],
  "viewports": [
   {
@@ -9,24 +9,24 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.35,
-    0.23,
-    0.19,
     0.39,
-    0.15,
-    0.24,
-    0.33,
-    0.34,
-    0.22,
     0.21,
-    0.41,
-    0.43
+    0.25,
+    0.53,
+    0.24,
+    0.25,
+    0.2,
+    0.29,
+    0.25,
+    0.21,
+    0.13,
+    0.41
    ],
    "motion": {
-    "elements": 90,
-    "css": 1,
-    "transitions": 88,
-    "scripted": 1,
+    "elements": 2,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 2,
     "videos": 0,
     "playingVideos": 0
    },
@@ -36,22 +36,25 @@
      "h": 900
     },
     "page": {
-     "height": 9941,
-     "screens": 11,
-     "words": 947,
-     "img": 1,
+     "height": 11623,
+     "screens": 12.9,
+     "words": 1034,
+     "img": 3,
      "video": 0,
      "canvas": 0,
-     "svg": 1,
-     "sections": 11,
+     "svg": 3,
+     "sections": 10,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 0,
+     "realPictures": 2,
      "videoCount": 0,
      "uiPictures": 0,
-     "pictureSamples": [],
+     "pictureSamples": [
+      "halftone-team.webp",
+      "halftone-lindau.webp"
+     ],
      "blendText": 0,
      "sideScrollers": 0,
      "brokenImages": [],
@@ -67,14 +70,14 @@
      "font": "Archivo",
      "weight": 900,
      "tracking": -0.055,
-     "leading": 0.86,
+     "leading": 0.96,
      "upper": true,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "left",
      "widthRatio": 0.71,
-     "top": 189,
+     "top": 193,
      "tag": "h1",
      "kind": "heading"
     },
@@ -96,37 +99,16 @@
       "font": "Archivo",
       "weight": 900,
       "tracking": -0.055,
-      "leading": 0.86,
+      "leading": 0.96,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
       "widthRatio": 0.71,
-      "top": 189,
+      "top": 193,
       "tag": "h1",
       "kind": "heading"
-     },
-     {
-      "text": "47.55° N 09.68° E",
-      "words": 4,
-      "chars": 17,
-      "lines": 2,
-      "size": 30,
-      "vw": 2.1,
-      "font": "Archivo",
-      "weight": 800,
-      "tracking": -0.04,
-      "leading": 0.96,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "right",
-      "widthRatio": 0.17,
-      "top": 586,
-      "tag": "p",
-      "kind": "statement"
      },
      {
       "text": "Die Geschichte beginnt nicht mit einem Bauplan. Sie beginnt mit einer Frage: Was passiert um uns herum, das wir nicht sehen können?",
@@ -145,7 +127,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.46,
-      "top": 1087,
+      "top": 1124,
       "tag": "p",
       "kind": "statement"
      },
@@ -166,7 +148,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 1507,
+      "top": 1685,
       "tag": "h2",
       "kind": "heading"
      },
@@ -187,7 +169,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.46,
-      "top": 1928,
+      "top": 2055,
       "tag": "li",
       "kind": "statement"
      },
@@ -208,7 +190,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.46,
-      "top": 1999,
+      "top": 2126,
       "tag": "li",
       "kind": "statement"
      },
@@ -229,7 +211,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.46,
-      "top": 2070,
+      "top": 2197,
       "tag": "li",
       "kind": "statement"
      },
@@ -249,8 +231,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.52,
-      "top": 2347,
+      "widthRatio": 0.46,
+      "top": 2477,
       "tag": "h2",
       "kind": "heading"
      },
@@ -270,31 +252,10 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.12,
-      "top": 2357,
+      "widthRatio": 0.14,
+      "top": 2487,
       "tag": "p",
       "kind": "statement"
-     },
-     {
-      "text": "ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ VERRÄT.",
-      "words": 8,
-      "chars": 48,
-      "lines": 3,
-      "size": 46,
-      "vw": 3.2,
-      "font": "Archivo",
-      "weight": 800,
-      "tracking": -0.04,
-      "leading": 0.98,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.53,
-      "top": 3019,
-      "tag": "h2",
-      "kind": "heading"
      },
      {
       "text": "DER SEE ANTWORTET IN DATEN.",
@@ -313,7 +274,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 3739,
+      "top": 3705,
       "tag": "h2",
       "kind": "heading"
      },
@@ -334,7 +295,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 4507,
+      "top": 4942,
       "tag": "h2",
       "kind": "heading"
      },
@@ -355,29 +316,29 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 5216,
+      "top": 5601,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "HÖREN",
+      "text": "3,500",
       "words": 1,
       "chars": 5,
       "lines": 1,
-      "size": 210,
-      "vw": 14.6,
+      "size": 56,
+      "vw": 3.9,
       "font": "Archivo",
       "weight": 900,
-      "tracking": -0.065,
-      "leading": 0.72,
-      "upper": true,
+      "tracking": -0.045,
+      "leading": 0.9,
+      "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.63,
-      "top": 5627,
-      "tag": "p",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 6182,
+      "tag": "b",
       "kind": "statement"
      },
      {
@@ -397,7 +358,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 5983,
+      "top": 6580,
       "tag": "h2",
       "kind": "heading"
      },
@@ -418,7 +379,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 7083,
+      "top": 7633,
       "tag": "h2",
       "kind": "heading"
      },
@@ -439,7 +400,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.28,
-      "top": 7521,
+      "top": 8045,
       "tag": "span",
       "kind": "heading"
      },
@@ -459,8 +420,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.26,
-      "top": 7586,
+      "widthRatio": 0.25,
+      "top": 8110,
       "tag": "span",
       "kind": "heading"
      },
@@ -480,15 +441,15 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.28,
-      "top": 7651,
+      "widthRatio": 0.27,
+      "top": 8175,
       "tag": "span",
       "kind": "heading"
      },
      {
-      "text": "GUTE SIGNALE BLEIBEN NICHT IM KLASSENZIMMER.",
+      "text": "GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZIMMER.",
       "words": 6,
-      "chars": 44,
+      "chars": 45,
       "lines": 2,
       "size": 56,
       "vw": 3.9,
@@ -502,7 +463,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 7947,
+      "top": 8477,
       "tag": "h2",
       "kind": "heading"
      },
@@ -523,7 +484,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.29,
-      "top": 8360,
+      "top": 8865,
       "tag": "h3",
       "kind": "heading"
      },
@@ -544,7 +505,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.29,
-      "top": 8360,
+      "top": 8865,
       "tag": "h3",
       "kind": "heading"
      },
@@ -565,7 +526,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.29,
-      "top": 8473,
+      "top": 8967,
       "tag": "h3",
       "kind": "heading"
      },
@@ -586,7 +547,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.29,
-      "top": 8473,
+      "top": 8967,
       "tag": "h3",
       "kind": "heading"
      },
@@ -607,7 +568,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.63,
-      "top": 8771,
+      "top": 9279,
       "tag": "h2",
       "kind": "heading"
      },
@@ -628,7 +589,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.61,
-      "top": 9116,
+      "top": 10113,
       "tag": "p",
       "kind": "statement"
      },
@@ -649,16 +610,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.95,
-      "top": 9685,
+      "top": 11357,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 27,
+     "count": 25,
      "maxLines": 4,
-     "over2Lines": 2,
-     "statements": 9,
+     "over2Lines": 1,
+     "statements": 8,
      "centered": 0,
      "medianWords": 4,
      "mixedFontHeadings": 0
@@ -666,103 +627,90 @@
     "type": {
      "families": [
       {
-       "family": "IBM Plex Mono",
-       "share": 0.88,
-       "mono": true
+       "family": "Archivo",
+       "share": 0.64,
+       "mono": false
       },
       {
-       "family": "Archivo",
-       "share": 0.12,
-       "mono": false
+       "family": "IBM Plex Mono",
+       "share": 0.36,
+       "mono": true
       }
      ],
      "familyCount": 2,
      "sizes": [
-      8,
-      9,
-      10,
+      11,
       12,
-      13,
-      15,
-      17,
+      14,
+      16,
+      18,
       20,
+      24,
       26,
       28,
       30,
       34,
       40,
       44,
-      46,
       56,
       107,
       150,
-      210,
       331
      ],
-     "sizeCount": 20,
+     "sizeCount": 17,
      "notLoaded": [],
      "body": {
-      "font": "IBM Plex Mono",
-      "size": 15,
-      "leading": 1.8,
+      "font": "Archivo",
+      "size": 16,
+      "leading": 1.7,
       "weight": 400,
       "tracking": 0,
       "contrast": 7.5
      },
-     "measureChars": 77,
+     "measureChars": 73,
      "max": {
       "size": 331.2,
       "vw": 23,
       "font": "Archivo",
       "text": "Lindau"
      },
-     "monoShare": 0.88,
-     "monoProseShare": 0.88,
+     "monoShare": 0.36,
+     "monoProseShare": 0.36,
      "monoFamilies": [
       "IBM Plex Mono"
      ],
      "monoSamples": [
       "Zum Inhalt springen",
-      "/ 10",
+      "/ 09",
       "Ausblick",
       "P-Seminar Physik / Bodensee-Gymnasium",
-      "Planung aktiv",
-      "AGORA / LANDING / 2026—27"
+      "Projektkalender",
+      "P-Seminar Physik · Bodensee-Gymnasium Li"
      ],
-     "microLabels": 77,
-     "microLabelShare": 0.204,
+     "microLabels": 89,
+     "microLabelShare": 0.22,
      "microSamples": [
       "Ausblick",
-      "Planung aktiv",
-      "AGORA / LANDING / 2026—27",
       "P-Seminar Physik · Bodensee-Gymnasium Li",
       "05 Teilprojekte",
+      "/",
+      "16 Schülerinnen und Schüler",
       "/"
      ],
-     "upperShare": 0.31,
+     "upperShare": 0.33,
      "centerShare": 0,
-     "smallText": 61
+     "smallText": 71
     },
     "eyebrows": [
      {
-      "text": "Standort",
-      "above": "47.55° N 09.68° E",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 564
-     },
-     {
-      "text": "Die Geschichte / 01—10",
+      "text": "Die Geschichte / 01-09",
       "above": "Die Geschichte beginnt nicht mit einem B",
       "upper": true,
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 1054
+      "size": 11,
+      "top": 1086
      },
      {
       "text": "Die Idee",
@@ -771,8 +719,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 1468
+      "size": 11,
+      "top": 1643
      },
      {
       "text": "Das Team",
@@ -781,18 +729,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 2308
-     },
-     {
-      "text": "Persönlich / 03",
-      "above": "ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 2989
+      "size": 11,
+      "top": 2435
      },
      {
       "text": "Teilprojekt 01 / Sensoren",
@@ -801,8 +739,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 3700
+      "size": 11,
+      "top": 3663
      },
      {
       "text": "Teilprojekt 02 / Gateway",
@@ -811,8 +749,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 4468
+      "size": 11,
+      "top": 4900
      },
      {
       "text": "Teilprojekt 03 / WebSDR",
@@ -821,18 +759,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 5177
-     },
-     {
-      "text": "Zugang / Browser",
-      "above": "HÖREN",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 5578
+      "size": 11,
+      "top": 5559
      },
      {
       "text": "Teilprojekt 04 / MeshCore",
@@ -841,8 +769,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 5944
+      "size": 11,
+      "top": 6538
      },
      {
       "text": "Teilprojekt 05 / Weltraum",
@@ -851,8 +779,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 7044
+      "size": 11,
+      "top": 7591
      },
      {
       "text": "Arktis & Antarktis",
@@ -861,18 +789,18 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 7602
+      "size": 11,
+      "top": 8123
      },
      {
       "text": "Nutzen",
-      "above": "GUTE SIGNALE BLEIBEN NICHT IM KLASSENZIM",
+      "above": "GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZI",
       "upper": true,
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 7908
+      "size": 11,
+      "top": 8435
      },
      {
       "text": "Ausblick",
@@ -881,60 +809,80 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 8732
+      "size": 11,
+      "top": 9237
+     },
+     {
+      "text": "Auszug / Planungsstand Oktober 2026",
+      "above": "NICHT ALLES AUF EINMAL. ABER ALLES MIT E",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 10043
      }
     ],
     "numbered": [
      {
-      "text": "05",
-      "size": 13,
-      "top": 752
+      "text": "09",
+      "size": 26,
+      "top": 426
+     },
+     {
+      "text": "/ 09",
+      "size": 11,
+      "top": 438
      },
      {
       "text": "01",
-      "size": 10,
-      "top": 1469
+      "size": 11,
+      "top": 1395
      },
      {
       "text": "02",
-      "size": 10,
-      "top": 2309
+      "size": 11,
+      "top": 1395
      },
      {
       "text": "03",
-      "size": 10,
-      "top": 2894
+      "size": 11,
+      "top": 1395
      },
      {
       "text": "04",
-      "size": 10,
-      "top": 3701
+      "size": 11,
+      "top": 1429
      },
      {
       "text": "05",
-      "size": 10,
-      "top": 4469
+      "size": 11,
+      "top": 1429
      },
      {
       "text": "06",
-      "size": 10,
-      "top": 5178
+      "size": 11,
+      "top": 1429
      },
      {
       "text": "07",
-      "size": 10,
-      "top": 5945
+      "size": 11,
+      "top": 1464
      },
      {
       "text": "08",
-      "size": 10,
-      "top": 7045
+      "size": 11,
+      "top": 1464
      },
      {
       "text": "09",
-      "size": 10,
-      "top": 7909
+      "size": 11,
+      "top": 1464
+     },
+     {
+      "text": "01",
+      "size": 11,
+      "top": 1644
      }
     ],
     "color": {
@@ -948,7 +896,7 @@
      "sectionBgs": [
       {
        "color": "#f2f0e7",
-       "top": 2932,
+       "top": 2924,
        "hsl": {
         "h": 49,
         "s": 0.3,
@@ -959,23 +907,23 @@
      "textColors": [
       {
        "color": "#f2f0e7",
-       "share": 0.82
+       "share": 0.9
       },
       {
-       "color": "#f3f0e7",
-       "share": 0.05
-      },
-      {
-       "color": "#0a0a0b",
-       "share": 0.05
-      },
-      {
-       "color": "#303036",
-       "share": 0.02
+       "color": "#f2efe7",
+       "share": 0.04
       },
       {
        "color": "#e9ff00",
+       "share": 0.03
+      },
+      {
+       "color": "#f3f0e7",
        "share": 0.02
+      },
+      {
+       "color": "#0000ff",
+       "share": 0.01
       }
      ],
      "button": {
@@ -985,18 +933,18 @@
        "s": 0.3,
        "l": 0.93
       },
-      "fg": "#0000ff"
+      "fg": "#f3f0e7"
      },
      "lowContrast": []
     },
     "buttons": {
-     "count": 6,
+     "count": 11,
      "inHero": 4,
      "radius": 0,
      "height": 42,
      "withShadow": 0,
      "withGradient": 0,
-     "mono": 6,
+     "mono": 11,
      "upper": 6,
      "heroLabels": [
       "ZUM INHALT SPRINGEN",
@@ -1010,23 +958,23 @@
      "shadowOverlay": 0,
      "shadowSamples": [],
      "gradients": 0,
-     "scrims": 0,
+     "scrims": 2,
      "gradientSamples": [],
      "gradientText": 0,
-     "hairlines": 33,
+     "hairlines": 53,
      "hairlineSamples": [
       "header.masthead.shell 1440px",
-      "aside.hero-plate.is-in 272px",
-      "dl.plate-list 249px",
-      "div 249px",
-      "div 249px"
+      "div.hero-foot 1368px",
+      "nav.chapter-index.is-in 900px",
+      "a 284px",
+      "a 284px"
      ],
      "outlinedBoxes": 4,
-     "dashed": 0,
+     "dashed": 1,
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 1,
+     "squareMedia": 3,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -1035,13 +983,13 @@
        "count": 4,
        "iconTopped": false,
        "rounded": false,
-       "top": 4872
+       "top": 5252
       },
       {
        "count": 4,
        "iconTopped": false,
        "rounded": false,
-       "top": 8339
+       "top": 8844
       }
      ]
     },
@@ -1049,6 +997,10 @@
      {
       "type": "bg-image",
       "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.12
      }
     ],
     "nav": {
@@ -1069,24 +1021,26 @@
    "width": 768,
    "height": 1024,
    "load": "load",
-   "screens": 10,
+   "screens": 12,
    "filled": [
-    0.3,
-    0.28,
-    0.32,
-    0.44,
-    0.16,
-    0.31,
-    0.47,
-    0.29,
+    0.41,
     0.19,
-    0.36
+    0.21,
+    0.39,
+    0.23,
+    0.2,
+    0.22,
+    0.29,
+    0.2,
+    0.26,
+    0.21,
+    0.5
    ],
    "motion": {
-    "elements": 86,
-    "css": 1,
-    "transitions": 84,
-    "scripted": 1,
+    "elements": 2,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 2,
     "videos": 0,
     "playingVideos": 0
    },
@@ -1096,22 +1050,25 @@
      "h": 1024
     },
     "page": {
-     "height": 9785,
-     "screens": 9.6,
-     "words": 939,
-     "img": 1,
+     "height": 11635,
+     "screens": 11.4,
+     "words": 1031,
+     "img": 3,
      "video": 0,
      "canvas": 0,
-     "svg": 1,
-     "sections": 11,
+     "svg": 3,
+     "sections": 10,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 0,
+     "realPictures": 2,
      "videoCount": 0,
      "uiPictures": 0,
-     "pictureSamples": [],
+     "pictureSamples": [
+      "halftone-team.webp",
+      "halftone-lindau.webp"
+     ],
      "blendText": 0,
      "sideScrollers": 0,
      "brokenImages": [],
@@ -1127,14 +1084,14 @@
      "font": "Archivo",
      "weight": 900,
      "tracking": -0.055,
-     "leading": 0.86,
+     "leading": 0.96,
      "upper": true,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "center",
      "widthRatio": 0.91,
-     "top": 190,
+     "top": 194,
      "tag": "h1",
      "kind": "heading"
     },
@@ -1156,37 +1113,16 @@
       "font": "Archivo",
       "weight": 900,
       "tracking": -0.055,
-      "leading": 0.86,
+      "leading": 0.96,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.91,
-      "top": 190,
+      "top": 194,
       "tag": "h1",
       "kind": "heading"
-     },
-     {
-      "text": "47.55° N 09.68° E",
-      "words": 4,
-      "chars": 17,
-      "lines": 2,
-      "size": 30,
-      "vw": 3.9,
-      "font": "Archivo",
-      "weight": 800,
-      "tracking": -0.04,
-      "leading": 0.96,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.16,
-      "top": 643,
-      "tag": "p",
-      "kind": "statement"
      },
      {
       "text": "WAS UNSICHTBAR IST, WIRD MESSBAR.",
@@ -1203,9 +1139,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 1420,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 1712,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1226,7 +1162,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.17,
-      "top": 2248,
+      "top": 2549,
       "tag": "p",
       "kind": "statement"
      },
@@ -1245,30 +1181,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 2347,
-      "tag": "h2",
-      "kind": "heading"
-     },
-     {
-      "text": "ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ VERRÄT.",
-      "words": 8,
-      "chars": 48,
-      "lines": 3,
-      "size": 28,
-      "vw": 3.6,
-      "font": "Archivo",
-      "weight": 800,
-      "tracking": -0.04,
-      "leading": 0.98,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.64,
-      "top": 3023,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 2648,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1287,9 +1202,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 3703,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 3679,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1308,9 +1223,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 4515,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 4931,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1329,31 +1244,31 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 5241,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 5675,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "HÖREN",
+      "text": "3,500",
       "words": 1,
       "chars": 5,
       "lines": 1,
-      "size": 122.9,
-      "vw": 16,
+      "size": 38,
+      "vw": 4.9,
       "font": "Archivo",
       "weight": 900,
-      "tracking": -0.065,
-      "leading": 0.72,
-      "upper": true,
+      "tracking": -0.045,
+      "leading": 0.9,
+      "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 5623,
-      "tag": "p",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 6319,
+      "tag": "b",
       "kind": "statement"
      },
      {
@@ -1371,9 +1286,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 5964,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 6766,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1392,17 +1307,17 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 6959,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 7706,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "GUTE SIGNALE BLEIBEN NICHT IM KLASSENZIMMER.",
+      "text": "GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZIMMER.",
       "words": 6,
-      "chars": 44,
-      "lines": 2,
+      "chars": 45,
+      "lines": 4,
       "size": 38,
       "vw": 4.9,
       "font": "Archivo",
@@ -1413,9 +1328,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 7816,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 8588,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1434,9 +1349,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 8642,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 9488,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1455,9 +1370,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.78,
-      "top": 8956,
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 10357,
       "tag": "p",
       "kind": "statement"
      },
@@ -1478,16 +1393,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.91,
-      "top": 9623,
+      "top": 11434,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 16,
-     "maxLines": 3,
+     "count": 14,
+     "maxLines": 4,
      "over2Lines": 2,
-     "statements": 5,
+     "statements": 4,
      "centered": 0,
      "medianWords": 4,
      "mixedFontHeadings": 0
@@ -1495,91 +1410,78 @@
     "type": {
      "families": [
       {
-       "family": "IBM Plex Mono",
-       "share": 0.88,
-       "mono": true
+       "family": "Archivo",
+       "share": 0.64,
+       "mono": false
       },
       {
-       "family": "Archivo",
-       "share": 0.12,
-       "mono": false
+       "family": "IBM Plex Mono",
+       "share": 0.36,
+       "mono": true
       }
      ],
      "familyCount": 2,
      "sizes": [
-      8,
-      9,
-      10,
+      11,
       12,
-      13,
-      15,
+      14,
       16,
+      18,
+      19,
       22,
       24,
       28,
-      30,
       36,
       38,
       57,
       96,
-      123,
       177
      ],
-     "sizeCount": 17,
+     "sizeCount": 14,
      "notLoaded": [],
      "body": {
-      "font": "IBM Plex Mono",
-      "size": 15,
-      "leading": 1.85,
+      "font": "Archivo",
+      "size": 16,
+      "leading": 1.65,
       "weight": 400,
       "tracking": 0,
       "contrast": 7.5
      },
-     "measureChars": 77,
+     "measureChars": 58,
      "max": {
       "size": 176.6,
       "vw": 23,
       "font": "Archivo",
       "text": "Lindau"
      },
-     "monoShare": 0.88,
-     "monoProseShare": 0.88,
+     "monoShare": 0.36,
+     "monoProseShare": 0.36,
      "monoFamilies": [
       "IBM Plex Mono"
      ],
      "monoSamples": [
       "Zum Inhalt springen",
       "P-Seminar Physik / Bodensee-Gymnasium",
-      "Planung aktiv",
       "Projektkalender",
       "P-Seminar Physik · Bodensee-Gymnasium Li",
-      "Wir bauen am Bodensee eine offene Funkst"
+      "Die Geschichte lesen",
+      "Projektkalender"
      ],
-     "microLabels": 75,
-     "microLabelShare": 0.2,
+     "microLabels": 88,
+     "microLabelShare": 0.219,
      "microSamples": [
-      "Planung aktiv",
       "P-Seminar Physik · Bodensee-Gymnasium Li",
       "05 Teilprojekte",
       "/",
       "16 Schülerinnen und Schüler",
-      "/"
+      "/",
+      "01 Standort"
      ],
-     "upperShare": 0.31,
+     "upperShare": 0.33,
      "centerShare": 0,
-     "smallText": 60
+     "smallText": 71
     },
     "eyebrows": [
-     {
-      "text": "05 Teilprojekte",
-      "above": "47.55° N 09.68° E",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 569
-     },
      {
       "text": "Die Idee",
       "above": "WAS UNSICHTBAR IST, WIRD MESSBAR.",
@@ -1587,8 +1489,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 1378
+      "size": 11,
+      "top": 1668
      },
      {
       "text": "Das Team",
@@ -1597,8 +1499,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 2196
+      "size": 11,
+      "top": 2494
      },
      {
       "text": "Schülerinnenund Schüler",
@@ -1607,18 +1509,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 2293
-     },
-     {
-      "text": "Persönlich / 03",
-      "above": "ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 2993
+      "size": 11,
+      "top": 2585
      },
      {
       "text": "Teilprojekt 01 / Sensoren",
@@ -1627,8 +1519,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 3661
+      "size": 11,
+      "top": 3634
      },
      {
       "text": "Teilprojekt 02 / Gateway",
@@ -1637,8 +1529,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 4473
+      "size": 11,
+      "top": 4886
      },
      {
       "text": "Teilprojekt 03 / WebSDR",
@@ -1647,18 +1539,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 5199
-     },
-     {
-      "text": "Zugang / Browser",
-      "above": "HÖREN",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 5570
+      "size": 11,
+      "top": 5630
      },
      {
       "text": "Teilprojekt 04 / MeshCore",
@@ -1667,8 +1549,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 5922
+      "size": 11,
+      "top": 6721
      },
      {
       "text": "Teilprojekt 05 / Weltraum",
@@ -1677,18 +1559,18 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 6917
+      "size": 11,
+      "top": 7662
      },
      {
       "text": "Nutzen",
-      "above": "GUTE SIGNALE BLEIBEN NICHT IM KLASSENZIM",
+      "above": "GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZI",
       "upper": true,
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 7774
+      "size": 11,
+      "top": 8543
      },
      {
       "text": "Ausblick",
@@ -1697,60 +1579,80 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 9,
-      "top": 8600
+      "size": 11,
+      "top": 9444
+     },
+     {
+      "text": "Auszug / Planungsstand Oktober 2026",
+      "above": "NICHT ALLES AUF EINMAL. ABER ALLES MIT E",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 10284
      }
     ],
     "numbered": [
      {
-      "text": "05",
-      "size": 13,
-      "top": 716
-     },
-     {
       "text": "01",
-      "size": 10,
+      "size": 11,
       "top": 1379
      },
      {
       "text": "02",
-      "size": 10,
-      "top": 2197
+      "size": 11,
+      "top": 1379
      },
      {
       "text": "03",
-      "size": 10,
-      "top": 2920
+      "size": 11,
+      "top": 1379
      },
      {
       "text": "04",
-      "size": 10,
-      "top": 3662
+      "size": 11,
+      "top": 1413
      },
      {
       "text": "05",
-      "size": 10,
-      "top": 4474
+      "size": 11,
+      "top": 1413
      },
      {
       "text": "06",
-      "size": 10,
-      "top": 5200
+      "size": 11,
+      "top": 1413
      },
      {
       "text": "07",
-      "size": 10,
-      "top": 5923
+      "size": 11,
+      "top": 1448
      },
      {
       "text": "08",
-      "size": 10,
-      "top": 6918
+      "size": 11,
+      "top": 1448
      },
      {
       "text": "09",
-      "size": 10,
-      "top": 7775
+      "size": 11,
+      "top": 1448
+     },
+     {
+      "text": "01",
+      "size": 11,
+      "top": 1669
+     },
+     {
+      "text": "02",
+      "size": 11,
+      "top": 2495
+     },
+     {
+      "text": "03",
+      "size": 11,
+      "top": 3635
      }
     ],
     "color": {
@@ -1761,37 +1663,27 @@
       "l": 0.5
      },
      "dark": true,
-     "sectionBgs": [
-      {
-       "color": "#f2f0e7",
-       "top": 2961,
-       "hsl": {
-        "h": 49,
-        "s": 0.3,
-        "l": 0.93
-       }
-      }
-     ],
+     "sectionBgs": [],
      "textColors": [
       {
        "color": "#f2f0e7",
-       "share": 0.82
+       "share": 0.9
       },
       {
-       "color": "#0a0a0b",
-       "share": 0.05
-      },
-      {
-       "color": "#f3f0e7",
-       "share": 0.05
-      },
-      {
-       "color": "#303036",
-       "share": 0.02
+       "color": "#f2efe7",
+       "share": 0.04
       },
       {
        "color": "#e9ff00",
+       "share": 0.03
+      },
+      {
+       "color": "#f3f0e7",
        "share": 0.02
+      },
+      {
+       "color": "#0000ff",
+       "share": 0.01
       }
      ],
      "button": {
@@ -1801,18 +1693,18 @@
        "s": 0.3,
        "l": 0.93
       },
-      "fg": "#0000ff"
+      "fg": "#f3f0e7"
      },
      "lowContrast": []
     },
     "buttons": {
-     "count": 6,
+     "count": 11,
      "inHero": 4,
      "radius": 0,
      "height": 42,
      "withShadow": 0,
      "withGradient": 0,
-     "mono": 6,
+     "mono": 11,
      "upper": 6,
      "heroLabels": [
       "ZUM INHALT SPRINGEN",
@@ -1826,39 +1718,36 @@
      "shadowOverlay": 0,
      "shadowSamples": [],
      "gradients": 0,
-     "scrims": 0,
+     "scrims": 2,
      "gradientSamples": [],
      "gradientText": 0,
-     "hairlines": 30,
+     "hairlines": 37,
      "hairlineSamples": [
       "header.masthead.shell 768px",
-      "aside.hero-plate.is-in 696px",
       "div.hero-foot 696px",
-      "li 596px",
-      "li 596px"
+      "nav.chapter-index.is-in 465px",
+      "li 465px",
+      "li 465px"
      ],
      "outlinedBoxes": 0,
-     "dashed": 0,
+     "dashed": 1,
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 1,
+     "squareMedia": 3,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
-     "cardRows": [
-      {
-       "count": 4,
-       "iconTopped": false,
-       "rounded": false,
-       "top": 8176
-      }
-     ]
+     "cardRows": []
     },
     "heroMedia": [
      {
       "type": "bg-image",
       "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.11
      }
     ],
     "nav": {
@@ -1881,24 +1770,24 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.49,
-    0.38,
-    0.33,
     0.54,
-    0.53,
-    0.34,
-    0.41,
-    0.36,
-    0.46,
+    0.33,
+    0.43,
+    0.59,
     0.42,
-    0.39,
-    0.37
+    0.55,
+    0.28,
+    0.38,
+    0.6,
+    0.44,
+    0.36,
+    0.41
    ],
    "motion": {
-    "elements": 86,
+    "elements": 2,
     "css": 0,
-    "transitions": 85,
-    "scripted": 1,
+    "transitions": 0,
+    "scripted": 2,
     "videos": 0,
     "playingVideos": 0
    },
@@ -1908,22 +1797,25 @@
      "h": 844
     },
     "page": {
-     "height": 10907,
-     "screens": 12.9,
-     "words": 926,
-     "img": 1,
+     "height": 11905,
+     "screens": 14.1,
+     "words": 1018,
+     "img": 3,
      "video": 0,
      "canvas": 0,
-     "svg": 1,
-     "sections": 11,
+     "svg": 3,
+     "sections": 10,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 0,
+     "realPictures": 2,
      "videoCount": 0,
      "uiPictures": 0,
-     "pictureSamples": [],
+     "pictureSamples": [
+      "halftone-team.webp",
+      "halftone-lindau.webp"
+     ],
      "blendText": 0,
      "sideScrollers": 0,
      "brokenImages": [],
@@ -1934,19 +1826,19 @@
      "words": 7,
      "chars": 43,
      "lines": 4,
-     "size": 38,
-     "vw": 9.7,
+     "size": 37.4,
+     "vw": 9.6,
      "font": "Archivo",
      "weight": 900,
      "tracking": -0.055,
-     "leading": 0.86,
+     "leading": 0.96,
      "upper": true,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "center",
-     "widthRatio": 0.9,
-     "top": 143,
+     "widthRatio": 0.91,
+     "top": 152,
      "tag": "h1",
      "kind": "heading"
     },
@@ -1954,7 +1846,7 @@
      "text": "EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.",
      "words": 7,
      "lines": 4,
-     "size": 38,
+     "size": 37.4,
      "font": "Archivo"
     },
     "headings": [
@@ -1963,42 +1855,21 @@
       "words": 7,
       "chars": 43,
       "lines": 4,
-      "size": 38,
-      "vw": 9.7,
+      "size": 37.4,
+      "vw": 9.6,
       "font": "Archivo",
       "weight": 900,
       "tracking": -0.055,
-      "leading": 0.86,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.9,
-      "top": 143,
-      "tag": "h1",
-      "kind": "heading"
-     },
-     {
-      "text": "47.55° N 09.68° E",
-      "words": 4,
-      "chars": 17,
-      "lines": 2,
-      "size": 24,
-      "vw": 6.2,
-      "font": "Archivo",
-      "weight": 800,
-      "tracking": -0.04,
       "leading": 0.96,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.9,
-      "top": 675,
-      "tag": "p",
-      "kind": "statement"
+      "widthRatio": 0.91,
+      "top": 152,
+      "tag": "h1",
+      "kind": "heading"
      },
      {
       "text": "Die Geschichte beginnt nicht mit einem Bauplan. Sie beginnt mit einer Frage: Was passiert um uns herum, das wir nicht sehen können?",
@@ -2016,8 +1887,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 1006,
+      "widthRatio": 0.85,
+      "top": 1021,
       "tag": "p",
       "kind": "statement"
      },
@@ -2026,8 +1897,8 @@
       "words": 5,
       "chars": 33,
       "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2037,8 +1908,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 1368,
+      "widthRatio": 0.85,
+      "top": 1608,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2058,8 +1929,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 1941,
+      "widthRatio": 0.85,
+      "top": 2088,
       "tag": "li",
       "kind": "statement"
      },
@@ -2079,8 +1950,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 1994,
+      "widthRatio": 0.85,
+      "top": 2140,
       "tag": "li",
       "kind": "statement"
      },
@@ -2100,8 +1971,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 2046,
+      "widthRatio": 0.85,
+      "top": 2193,
       "tag": "li",
       "kind": "statement"
      },
@@ -2122,7 +1993,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.31,
-      "top": 2314,
+      "top": 2432,
       "tag": "p",
       "kind": "statement"
      },
@@ -2131,8 +2002,8 @@
       "words": 4,
       "chars": 30,
       "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2142,29 +2013,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 2408,
-      "tag": "h2",
-      "kind": "heading"
-     },
-     {
-      "text": "ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ VERRÄT.",
-      "words": 8,
-      "chars": 48,
-      "lines": 3,
-      "size": 23.4,
-      "vw": 6,
-      "font": "Archivo",
-      "weight": 800,
-      "tracking": -0.04,
-      "leading": 0.98,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.69,
-      "top": 3201,
+      "widthRatio": 0.85,
+      "top": 2527,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2173,8 +2023,8 @@
       "words": 5,
       "chars": 27,
       "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2184,8 +2034,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 3955,
+      "widthRatio": 0.85,
+      "top": 3517,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2194,8 +2044,8 @@
       "words": 6,
       "chars": 32,
       "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2205,8 +2055,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 4947,
+      "widthRatio": 0.85,
+      "top": 4829,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2214,9 +2064,9 @@
       "text": "DER HIMMEL WIRD HÖRBAR.",
       "words": 4,
       "chars": 23,
-      "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "lines": 2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2226,30 +2076,135 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 5949,
+      "widthRatio": 0.85,
+      "top": 5776,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "HÖREN",
+      "text": "3,5",
       "words": 1,
-      "chars": 5,
+      "chars": 3,
       "lines": 1,
-      "size": 66.3,
-      "vw": 17,
+      "size": 24,
+      "vw": 6.2,
       "font": "Archivo",
-      "weight": 900,
-      "tracking": -0.065,
-      "leading": 0.72,
-      "upper": true,
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 6326,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "7",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 6486,
-      "tag": "p",
+      "widthRatio": 0.04,
+      "top": 6326,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "14",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 6395,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "145",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.11,
+      "top": 6395,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "437",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 6464,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3,500",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Archivo",
+      "weight": 900,
+      "tracking": -0.045,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 6587,
+      "tag": "b",
       "kind": "statement"
      },
      {
@@ -2257,8 +2212,8 @@
       "words": 4,
       "chars": 24,
       "lines": 2,
-      "size": 32,
-      "vw": 8.2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2268,8 +2223,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 6712,
+      "widthRatio": 0.85,
+      "top": 6995,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2277,9 +2232,9 @@
       "text": "EIN FUNKSPRUCH VOM SÜDPOL.",
       "words": 4,
       "chars": 26,
-      "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "lines": 2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2289,8 +2244,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 7621,
+      "widthRatio": 0.85,
+      "top": 7825,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2310,8 +2265,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.61,
-      "top": 8196,
+      "widthRatio": 0.85,
+      "top": 8290,
       "tag": "span",
       "kind": "heading"
      },
@@ -2330,9 +2285,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "left",
-      "widthRatio": 0.47,
-      "top": 8273,
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 8389,
       "tag": "span",
       "kind": "heading"
      },
@@ -2352,18 +2307,18 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.62,
-      "top": 8350,
+      "widthRatio": 0.85,
+      "top": 8488,
       "tag": "span",
       "kind": "heading"
      },
      {
-      "text": "GUTE SIGNALE BLEIBEN NICHT IM KLASSENZIMMER.",
+      "text": "GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZIMMER.",
       "words": 6,
-      "chars": 44,
-      "lines": 4,
-      "size": 32,
-      "vw": 8.2,
+      "chars": 45,
+      "lines": 3,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2373,8 +2328,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 8632,
+      "widthRatio": 0.85,
+      "top": 8767,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2394,8 +2349,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 9180,
+      "widthRatio": 0.85,
+      "top": 9211,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2415,8 +2370,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 9265,
+      "widthRatio": 0.85,
+      "top": 9301,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2436,8 +2391,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 9366,
+      "widthRatio": 0.85,
+      "top": 9392,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2457,8 +2412,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 9467,
+      "widthRatio": 0.85,
+      "top": 9505,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2467,8 +2422,8 @@
       "words": 4,
       "chars": 25,
       "lines": 2,
-      "size": 32,
-      "vw": 8.2,
+      "size": 33.5,
+      "vw": 8.6,
       "font": "Archivo",
       "weight": 800,
       "tracking": -0.04,
@@ -2478,7 +2433,7 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
+      "widthRatio": 0.85,
       "top": 9728,
       "tag": "h2",
       "kind": "heading"
@@ -2499,8 +2454,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.78,
-      "top": 10155,
+      "widthRatio": 0.85,
+      "top": 10760,
       "tag": "p",
       "kind": "statement"
      },
@@ -2520,59 +2475,58 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.9,
-      "top": 10780,
+      "widthRatio": 0.91,
+      "top": 11732,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 27,
+     "count": 30,
      "maxLines": 5,
-     "over2Lines": 9,
-     "statements": 9,
+     "over2Lines": 6,
+     "statements": 8,
      "centered": 0,
-     "medianWords": 4,
+     "medianWords": 2,
      "mixedFontHeadings": 0
     },
     "type": {
      "families": [
       {
-       "family": "IBM Plex Mono",
-       "share": 0.88,
-       "mono": true
+       "family": "Archivo",
+       "share": 0.65,
+       "mono": false
       },
       {
-       "family": "Archivo",
-       "share": 0.12,
-       "mono": false
+       "family": "IBM Plex Mono",
+       "share": 0.35,
+       "mono": true
       }
      ],
      "familyCount": 2,
      "sizes": [
-      7,
-      8,
-      9,
-      10,
       11,
-      15,
+      12,
+      14,
+      16,
       17,
+      18,
       22,
       23,
       24,
       29,
-      32,
+      34,
+      37,
       38,
-      66,
       86,
       90
      ],
-     "sizeCount": 16,
+     "sizeCount": 15,
      "notLoaded": [],
      "body": {
-      "font": "IBM Plex Mono",
-      "size": 15,
-      "leading": 1.8,
+      "font": "Archivo",
+      "size": 16,
+      "leading": 1.65,
       "weight": 400,
       "tracking": 0,
       "contrast": 7.5
@@ -2584,53 +2538,43 @@
       "font": "Archivo",
       "text": "16"
      },
-     "monoShare": 0.88,
-     "monoProseShare": 0.88,
+     "monoShare": 0.35,
+     "monoProseShare": 0.35,
      "monoFamilies": [
       "IBM Plex Mono"
      ],
      "monoSamples": [
       "Zum Inhalt springen",
       "P-Seminar Physik · Bodensee-Gymnasium Li",
-      "Wir bauen am Bodensee eine offene Funkst",
       "Die Geschichte lesen",
       "Projektkalender",
-      "05 Teilprojekte"
+      "05 Teilprojekte",
+      "16 Schülerinnen und Schüler"
      ],
-     "microLabels": 74,
-     "microLabelShare": 0.2,
+     "microLabels": 86,
+     "microLabelShare": 0.221,
      "microSamples": [
       "P-Seminar Physik · Bodensee-Gymnasium Li",
       "05 Teilprojekte",
-      "/",
       "16 Schülerinnen und Schüler",
-      "/",
-      "01 Standort"
+      "01 Standort",
+      "Neun Stationen / eine Leitung",
+      "Nach unten"
      ],
-     "upperShare": 0.3,
+     "upperShare": 0.33,
      "centerShare": 0,
-     "smallText": 57
+     "smallText": 69
     },
     "eyebrows": [
      {
-      "text": "Standort",
-      "above": "47.55° N 09.68° E",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 643
-     },
-     {
-      "text": "Die Geschichte / 01—10",
+      "text": "Die Geschichte / 01-09",
       "above": "Die Geschichte beginnt nicht mit einem B",
       "upper": true,
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 973
+      "size": 11,
+      "top": 984
      },
      {
       "text": "Die Idee",
@@ -2639,8 +2583,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 1339
+      "size": 11,
+      "top": 1575
      },
      {
       "text": "Das Team",
@@ -2649,8 +2593,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 2276
+      "size": 11,
+      "top": 2391
      },
      {
       "text": "Schülerinnenund Schüler",
@@ -2659,18 +2603,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 2354
-     },
-     {
-      "text": "Persönlich / 03",
-      "above": "ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ",
-      "upper": true,
-      "tracked": true,
-      "mono": true,
-      "pill": false,
-      "size": 8,
-      "top": 3171
+      "size": 11,
+      "top": 2464
      },
      {
       "text": "Teilprojekt 01 / Sensoren",
@@ -2679,8 +2613,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 3926
+      "size": 11,
+      "top": 3484
      },
      {
       "text": "Teilprojekt 02 / Gateway",
@@ -2689,8 +2623,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 4918
+      "size": 11,
+      "top": 4796
      },
      {
       "text": "Teilprojekt 03 / WebSDR",
@@ -2699,18 +2633,18 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 5920
+      "size": 11,
+      "top": 5743
      },
      {
-      "text": "Quelle / weltweit",
-      "above": "HÖREN",
+      "text": "Empfangslage / Demo",
+      "above": "3,5",
       "upper": true,
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 6439
+      "size": 11,
+      "top": 6280
      },
      {
       "text": "Teilprojekt 04 / MeshCore",
@@ -2719,8 +2653,8 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 6684
+      "size": 11,
+      "top": 6962
      },
      {
       "text": "Teilprojekt 05 / Weltraum",
@@ -2729,18 +2663,18 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 7593
+      "size": 11,
+      "top": 7792
      },
      {
       "text": "Nutzen",
-      "above": "GUTE SIGNALE BLEIBEN NICHT IM KLASSENZIM",
+      "above": "GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZI",
       "upper": true,
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 8603
+      "size": 11,
+      "top": 8734
      },
      {
       "text": "Ausblick",
@@ -2749,60 +2683,80 @@
       "tracked": true,
       "mono": true,
       "pill": false,
-      "size": 8,
-      "top": 9700
+      "size": 11,
+      "top": 9695
+     },
+     {
+      "text": "Auszug / Planungsstand Oktober 2026",
+      "above": "NICHT ALLES AUF EINMAL. ABER ALLES MIT E",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 10693
      }
     ],
     "numbered": [
      {
-      "text": "05",
-      "size": 11,
-      "top": 799
-     },
-     {
       "text": "01",
-      "size": 9,
-      "top": 1340
+      "size": 11,
+      "top": 1273
      },
      {
       "text": "02",
-      "size": 9,
-      "top": 2277
+      "size": 11,
+      "top": 1273
      },
      {
       "text": "03",
-      "size": 9,
-      "top": 3121
+      "size": 11,
+      "top": 1317
      },
      {
       "text": "04",
-      "size": 9,
-      "top": 3927
+      "size": 11,
+      "top": 1317
      },
      {
       "text": "05",
-      "size": 9,
-      "top": 4919
+      "size": 11,
+      "top": 1361
      },
      {
       "text": "06",
-      "size": 9,
-      "top": 5921
+      "size": 11,
+      "top": 1361
      },
      {
       "text": "07",
-      "size": 9,
-      "top": 6685
+      "size": 11,
+      "top": 1405
      },
      {
       "text": "08",
-      "size": 9,
-      "top": 7593
+      "size": 11,
+      "top": 1405
      },
      {
       "text": "09",
-      "size": 9,
-      "top": 8604
+      "size": 11,
+      "top": 1449
+     },
+     {
+      "text": "01",
+      "size": 11,
+      "top": 1577
+     },
+     {
+      "text": "02",
+      "size": 11,
+      "top": 2393
+     },
+     {
+      "text": "03",
+      "size": 11,
+      "top": 3486
      }
     ],
     "color": {
@@ -2813,37 +2767,27 @@
       "l": 0.5
      },
      "dark": true,
-     "sectionBgs": [
-      {
-       "color": "#f2f0e7",
-       "top": 3148,
-       "hsl": {
-        "h": 49,
-        "s": 0.3,
-        "l": 0.93
-       }
-      }
-     ],
+     "sectionBgs": [],
      "textColors": [
       {
        "color": "#f2f0e7",
-       "share": 0.83
+       "share": 0.9
       },
       {
-       "color": "#0a0a0b",
-       "share": 0.05
-      },
-      {
-       "color": "#f3f0e7",
-       "share": 0.05
-      },
-      {
-       "color": "#303036",
-       "share": 0.02
+       "color": "#f2efe7",
+       "share": 0.04
       },
       {
        "color": "#e9ff00",
+       "share": 0.03
+      },
+      {
+       "color": "#f3f0e7",
        "share": 0.02
+      },
+      {
+       "color": "#0000ff",
+       "share": 0.01
       }
      ],
      "button": {
@@ -2853,18 +2797,18 @@
        "s": 0.3,
        "l": 0.93
       },
-      "fg": "#0000ff"
+      "fg": "#f3f0e7"
      },
      "lowContrast": []
     },
     "buttons": {
-     "count": 5,
+     "count": 10,
      "inHero": 3,
      "radius": 0,
-     "height": 40,
+     "height": 68,
      "withShadow": 0,
      "withGradient": 0,
-     "mono": 5,
+     "mono": 10,
      "upper": 5,
      "heroLabels": [
       "ZUM INHALT SPRINGEN",
@@ -2877,23 +2821,23 @@
      "shadowOverlay": 0,
      "shadowSamples": [],
      "gradients": 0,
-     "scrims": 0,
+     "scrims": 2,
      "gradientSamples": [],
      "gradientText": 0,
-     "hairlines": 30,
+     "hairlines": 45,
      "hairlineSamples": [
       "header.masthead.shell 390px",
-      "aside.hero-plate.is-in 350px",
-      "div.hero-foot 350px",
-      "li 304px",
-      "li 304px"
+      "div.hero-foot 354px",
+      "nav.chapter-index.is-in 330px",
+      "li 330px",
+      "li 330px"
      ],
-     "outlinedBoxes": 0,
-     "dashed": 0,
+     "outlinedBoxes": 1,
+     "dashed": 1,
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 1,
+     "squareMedia": 3,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -2902,7 +2846,13 @@
        "count": 3,
        "iconTopped": false,
        "rounded": false,
-       "top": 9247
+       "top": 8272
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 9193
       }
      ]
     },
@@ -2910,6 +2860,10 @@
      {
       "type": "bg-image",
       "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.09
      }
     ],
     "nav": {
@@ -2932,7 +2886,7 @@
    "level": "FAIL",
    "id": "headline-lines",
    "width": 1440,
-   "message": "2 headline(s) wrap past two lines at 1440px: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" → 4 lines (7 words, 106.6px); \"ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ VERRÄT.\" → 3 lines (8 words, 46px)",
+   "message": "1 headline(s) wrap past two lines at 1440px: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" → 4 lines (7 words, 106.6px)",
    "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
   },
   {
@@ -2949,7 +2903,7 @@
    "level": "FAIL",
    "id": "eyebrow",
    "width": 1440,
-   "message": "14 eyebrow/kicker label(s) above headings: \"Standort\" above \"47.55° N 09.68° E\"; \"Die Geschichte / 01—10\" above \"Die Geschichte beginnt nicht mit einem B\"; \"Die Idee\" above \"WAS UNSICHTBAR IST, WIRD MESSBAR.\"; \"Das Team\" above \"16\"; \"Persönlich / 03\" above \"ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ\"",
+   "message": "12 eyebrow/kicker label(s) above headings: \"Die Geschichte / 01-09\" above \"Die Geschichte beginnt nicht mit einem B\"; \"Die Idee\" above \"WAS UNSICHTBAR IST, WIRD MESSBAR.\"; \"Das Team\" above \"16\"; \"Teilprojekt 01 / Sensoren\" above \"DER SEE ANTWORTET IN DATEN.\"; \"Teilprojekt 02 / Gateway\" above \"EIN NETZ, DAS DER REGION GEHÖRT.\"",
    "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
    "alsoAt": [
     768,
@@ -2960,7 +2914,7 @@
    "level": "FAIL",
    "id": "mono",
    "width": 1440,
-   "message": "Monospace type outside code: IBM Plex Mono — e.g. \"Zum Inhalt springen\", \"/ 10\", \"Ausblick\", \"P-Seminar Physik / Bodensee-Gymnasium\"",
+   "message": "Monospace type outside code: IBM Plex Mono — e.g. \"Zum Inhalt springen\", \"/ 09\", \"Ausblick\", \"P-Seminar Physik / Bodensee-Gymnasium\"",
    "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
    "alsoAt": [
     768,
@@ -2971,7 +2925,7 @@
    "level": "FAIL",
    "id": "numbering",
    "width": 1440,
-   "message": "Decorative index numbers: \"05\", \"01\", \"02\", \"03\", \"04\", \"05\"",
+   "message": "Decorative index numbers: \"09\", \"/ 09\", \"01\", \"02\", \"03\", \"04\"",
    "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
    "alsoAt": [
     768,
@@ -2982,7 +2936,7 @@
    "level": "FAIL",
    "id": "micro-label",
    "width": 1440,
-   "message": "77 tiny uppercase letter-spaced labels (e.g. \"Ausblick\", \"Planung aktiv\", \"AGORA / LANDING / 2026—27\", \"P-Seminar Physik · Bodensee-Gymnasium Li\").",
+   "message": "89 tiny uppercase letter-spaced labels (e.g. \"Ausblick\", \"P-Seminar Physik · Bodensee-Gymnasium Li\", \"05 Teilprojekte\", \"/\").",
    "fix": "Use sentence-case text at a readable size, or delete the label.",
    "alsoAt": [
     768,
@@ -2993,7 +2947,7 @@
    "level": "FAIL",
    "id": "hairline",
    "width": 1440,
-   "message": "33 thin rule(s)/divider line(s): header.masthead.shell 1440px | aside.hero-plate.is-in 272px | dl.plate-list 249px | div 249px",
+   "message": "53 thin rule(s)/divider line(s): header.masthead.shell 1440px | div.hero-foot 1368px | nav.chapter-index.is-in 900px | a 284px",
    "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
    "alsoAt": [
     768,
@@ -3009,10 +2963,24 @@
   },
   {
    "level": "WARN",
+   "id": "dashed",
+   "width": 1440,
+   "message": "1 dashed/dotted border(s).",
+   "fix": "Remove unless it is a real drop zone.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
    "id": "card-rows",
    "width": 1440,
    "message": "2 rows of identical boxed cards.",
-   "fix": "Vary the composition; not every section is a card grid."
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    390
+   ]
   },
   {
    "level": "WARN",
@@ -3029,7 +2997,7 @@
    "level": "WARN",
    "id": "size-count",
    "width": 1440,
-   "message": "20 different font sizes (8, 9, 10, 12, 13, 15, 17, 20, 26, 28, 30, 34, 40, 44, 46, 56, 107, 150, 210, 331).",
+   "message": "17 different font sizes (11, 12, 14, 16, 18, 20, 24, 26, 28, 30, 34, 40, 44, 56, 107, 150, 331).",
    "fix": "A page needs about five: display, heading, lead, body, small.",
    "alsoAt": [
     768,
@@ -3037,20 +3005,10 @@
    ]
   },
   {
-   "level": "WARN",
-   "id": "body-size",
-   "width": 1440,
-   "message": "Body text is 15px.",
-   "fix": "Body copy 16–20px.",
-   "alsoAt": [
-    768
-   ]
-  },
-  {
    "level": "FAIL",
    "id": "few-pictures",
    "width": 1440,
-   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
    "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
   },
   {
@@ -3064,7 +3022,7 @@
    "level": "FAIL",
    "id": "small-text",
    "width": 1440,
-   "message": "61 text blocks under 13px.",
+   "message": "71 text blocks under 13px.",
    "fix": "Nothing meant to be read goes below 13px.",
    "alsoAt": [
     768,
@@ -3075,7 +3033,7 @@
    "level": "FAIL",
    "id": "covered-text",
    "width": 1440,
-   "message": "Large text lies under another element at some scroll position: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" (screen 1, 100% hidden); \"47.55° N 09.68° E\" (screen 1, 100% hidden); \"09.68° E\" (screen 1, 100% hidden); \"Die Geschichte beginnt nicht mit einem Bauplan. \" (screen 2, 100% hidden)",
+   "message": "Large text lies under another element at some scroll position: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" (screen 1, 100% hidden); \"Die Geschichte beginnt nicht mit einem Bauplan. \" (screen 2, 100% hidden); \"Was passiert um uns herum, das wir nicht sehen k\" (screen 2, 100% hidden); \"WAS UNSICHTBAR IST, WIRD MESSBAR.\" (screen 2, 100% hidden)",
    "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
    "alsoAt": [
     768,
@@ -3084,24 +3042,31 @@
   },
   {
    "level": "FAIL",
-   "id": "empty-screens",
+   "id": "still-page",
    "width": 1440,
-   "message": "2 of 12 desktop screens are almost empty ground (under 20% of the screen holds text, a picture or a colour field): screens 3, 5.",
-   "fix": "An empty screen is a rest only once per page. Elsewhere it means the section is underbuilt: set its content larger, give it the full information, put it on a colour field, or cut it."
+   "message": "Only 2 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
   },
   {
    "level": "FAIL",
    "id": "headline-lines",
    "width": 768,
-   "message": "2 headline(s) wrap past two lines at 768px: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" → 3 lines (7 words, 56.8px); \"ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ VERRÄT.\" → 3 lines (8 words, 28px)",
+   "message": "2 headline(s) wrap past two lines at 768px: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" → 3 lines (7 words, 56.8px); \"GUTE SIGNALE BLEIBEN NICHT IM KLASSEN­ZIMMER.\" → 4 lines (6 words, 38px)",
    "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
   },
   {
    "level": "FAIL",
    "id": "headline-lines",
    "width": 390,
-   "message": "10 headline(s) wrap past two lines at 390px: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" → 4 lines (7 words, 38px); \"WAS UNSICHTBAR IST, WIRD MESSBAR.\" → 3 lines (5 words, 32px); \"SECHZEHN MENSCHEN. EIN SIGNAL.\" → 3 lines (4 words, 32px); \"ICH WILL WISSEN, WAS DIE ANDERE FREQUENZ VERRÄT.\" → 3 lines (8 words, 23.4px)",
+   "message": "7 headline(s) wrap past two lines at 390px: \"EINE FUNKSTATION FÜR SEE, STADT UND HIMMEL.\" → 4 lines (7 words, 37.4px); \"WAS UNSICHTBAR IST, WIRD MESSBAR.\" → 3 lines (5 words, 33.5px); \"SECHZEHN MENSCHEN. EIN SIGNAL.\" → 3 lines (4 words, 33.5px); \"DER SEE ANTWORTET IN DATEN.\" → 3 lines (5 words, 33.5px)",
    "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 390,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box."
   }
  ],
  "images": [
