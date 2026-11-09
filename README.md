@@ -2,7 +2,7 @@
 
 Ein Projekt des P-Seminars Physik 2026/27 am Bodensee-Gymnasium Lindau.
 
-**Live:** [indukto.github.io/ago](https://indukto.github.io/ago/) · **Kalender:** [indukto.github.io/ago/kalender.html](https://indukto.github.io/ago/kalender.html)
+**Live:** [indukto.github.io/funkstation-site](https://indukto.github.io/funkstation-site/) · **Kalender:** [indukto.github.io/funkstation-site/kalender.html](https://indukto.github.io/funkstation-site/kalender.html)
 
 ## Screenshots
 
@@ -109,7 +109,7 @@ Die benötigte Ausrüstung umfasst unter anderem Funkgeräte, Antennen und Zubeh
 
 ## Website
 
-Die Website ist unter **[indukto.github.io/ago](https://indukto.github.io/ago/)** veröffentlicht.
+Die Website ist unter **[indukto.github.io/funkstation-site](https://indukto.github.io/funkstation-site/)** veröffentlicht.
 Sie besteht aus statischem HTML, CSS und JavaScript; nur der gemeinsame Kalender
 benötigt den mitgelieferten Python-Server.
 
