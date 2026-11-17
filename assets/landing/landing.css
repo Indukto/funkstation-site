@@ -379,7 +379,7 @@ ol {
   row-gap: var(--hero-gap);
   align-items: end;
   min-height: calc(100svh - 84px);
-  padding-top: clamp(64px, 9vh, 120px);
+  padding-top: clamp(40px, 6vh, 84px);
   padding-bottom: 34px;
 }
 
