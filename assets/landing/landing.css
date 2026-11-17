@@ -379,12 +379,13 @@ ol {
   row-gap: var(--hero-gap);
   align-items: end;
   min-height: calc(100svh - 84px);
-  padding-top: clamp(40px, 6vh, 84px);
+  padding-top: clamp(28px, 4vh, 52px);
   padding-bottom: 34px;
 }
 
 .hero-main {
   position: relative;
+  align-self: start;
   min-width: 0;
   z-index: 1;
 }
