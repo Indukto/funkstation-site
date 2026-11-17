@@ -75,7 +75,6 @@
   const heroCats = $("#heroCats");
   const heroWeeks = $("#heroWeeks");
   const panelCode = $("#panelCode");
-  const docCode = $("#docCode");
   const panelStats = $("#panelStats");
   const calendarTitle = $("#calendar-title");
   const statEvents = $("#statEvents");
@@ -497,7 +496,6 @@
     heroCats.textContent = `${categories.size} ${categories.size === 1 ? "Kategorie" : "Kategorien"}`;
     heroWeeks.textContent = `KW ${pad(isoWeek(gridStart))}—${pad(isoWeek(gridEnd))}`;
     panelCode.textContent = `${pad(month + 1)}—${year}`;
-    docCode.textContent = `KAL / ${year} / ${pad(month + 1)}`;
     panelStats.textContent = `${events.length} ${events.length === 1 ? "Termin" : "Termine"} · ${daysInMonth(year, month)} Tage`;
     calendarTitle.textContent = `${MONTHS[month]} ${year}`;
     document.title = `Projektkalender — ${MONTHS[month]} ${year} | Funkstation & Smart City Lindau`;

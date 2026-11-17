@@ -7,9 +7,6 @@ mitwächst. Jede Station liegt an dieser Linie.**
 
 ## Erster Bildschirm
 
-**Kicker**
-P-SEMINAR PHYSIK · BODENSEE-GYMNASIUM LINDAU · SCHULJAHR 2026/27
-
 **Headline**
 EINE FUNKSTATION
 FÜR SEE, STADT
@@ -19,14 +16,8 @@ UND HIMMEL.
 Wir bauen am Bodensee eine offene Funkstation: Sensoren für den See, ein LoRaWAN-Netz
 für die Region und einen Empfänger, der Signale aus aller Welt hörbar macht.
 
-**Meta**
-05 TEILPROJEKTE / 16 SCHÜLERINNEN UND SCHÜLER / 01 STANDORT
-
 **Aktionen**
 Die Geschichte lesen → / Projektkalender
-
-**Scroll-Hinweis**
-ZEHN STATIONEN / EINE LEITUNG — NACH UNTEN
 
 ---
 

@@ -211,6 +211,12 @@ a {
   font-weight: 600;
 }
 
+.masthead-right .btn--add-event {
+  min-height: 44px;
+  padding-inline: 20px;
+  font-size: 10px;
+}
+
 .btn--solid:hover {
   border-color: var(--signal);
   background: var(--signal);
